@@ -32,6 +32,7 @@
 }
 html{
   font-size: 100%;
+	-webkit-font-smoothing: antialiased;
 }
 body{
 	font-family: 'proxima_nova_rgregular', sans-serif;
@@ -82,28 +83,6 @@ h6 {
     margin-bottom: 1.5em; /* 24 / 16 */
 }
 
-.mainFooter{
-  font-size: 0.875em;
-}
-
-.mainFooter h2{
-    font-family: 'proxima_nova_rgregular';
-    font-size: 1.5em; /* 24 / 16 */
-    line-height: 1em; /* 24 / 24 */
-    margin-bottom: 1em; /* 24 / 24 */
-    color: white;
-}
-
-aside{
-  font-size: 1em;
-}
-
-aside h3{
-    font-size: 1em; /* 16 / 16 */
-    line-height: 1.5em; /* 24 / 16 */
-    margin-bottom: .5em; /* 24 / 16 */
-}
-
 p{
     font-size: 1em; /* 16 / 16 */
     line-height: 1.5em; /* 24 / 16 */
@@ -112,15 +91,8 @@ p{
 a {
     text-decoration: none;
     opacity: 1;
-    color: $defaultLinkColor;
 }
 a:hover{
     opacity: 0.8;
     transition: opacity 0.3s ease-in-out;
-}
-button, input{
-  font-size: 1em; /* 16 / 16 */
-  line-height: 1.5em; /* 24 / 16 */
-	-webkit-font-smoothing: antialiased;
-  font-family: 'nexa_regularregular';
 }
