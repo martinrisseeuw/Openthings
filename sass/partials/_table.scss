@@ -1,0 +1,34 @@
+table {
+	width: 100%;
+	max-width: 1050px;
+	margin: 50px auto;
+	border-collapse: collapse;
+	color: rgba(50,58,69, 1);
+}
+table a{
+	color: rgba(104,91,122,1);
+	text-decoration: none;
+}
+
+/* Zebra striping */
+tr:nth-of-type(even) {
+	background: rgba(50,58,69, 0.05);
+}
+td, th {
+	padding: 6px;
+	border-top: 1px solid #ccc;
+	text-align: left;
+}
+td:nth-child(5), th:nth-child(5){
+	text-align: right;
+}
+td:nth-child(1), th:nth-child(1){
+	width: 35%;
+}
+td:nth-child(2), th:nth-child(2){
+	width: 20%;
+}
+th {
+	font-weight: normal;
+	border: none;
+}

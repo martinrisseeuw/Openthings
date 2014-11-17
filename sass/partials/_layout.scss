@@ -1,0 +1,88 @@
+.wrapper{
+	margin: 0 auto;
+	max-width: 1030px;
+}
+.mainHeader{
+	background: url(../images/header.jpg) no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 100px;
+	padding-bottom: 30%;
+}
+section{
+	width: 100%;
+	float: left;
+}
+aside{
+	width: 35.41666666666525%;
+}
+footer{
+	width: 100%;
+	float: left;
+}
+main{
+	width: 64.5833333333%;
+	-moz-box-shadow: -1px 0 5px #ccc;
+	-webkit-box-shadow: -1px 0 5px #ccc;
+	box-shadow: -1px 0 5px rgba(50,50,50,.4);
+	position: relative;
+}
+
+/* Landingpage -----------------------------------------------------------------------------*/
+
+.mainSection{
+  padding: 6%;
+}
+
+.topJobSection{
+	text-align: center;
+	background: url(../images/map_background.svg) no-repeat;
+	background-size: cover;
+}
+.topJobSection header{
+	text-align: center;
+}
+.topJobSection article{
+	width: 32.666666667%;
+	background: white;
+	border: 1px solid $lightgrey;
+	margin-bottom: 1%;
+	padding: $tiny-box-padding;
+	position: relative;
+	text-align: left;
+}
+.topJobSection article:nth-of-type(1), .topJobSection article:nth-of-type(2), 
+.topJobSection article:nth-of-type(4), .topJobSection article:nth-of-type(5){
+	margin-right: 1%;
+}
+.topJobSection article h1{
+	color: $secondary-brand-color;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+.topJobSection article h2{
+	font-family: 'proxima_nova_rgregular';
+	color: $mediumgrey;
+	font-size: 1em;
+	line-height: 1.5em;
+	margin-bottom: 0;
+}
+.topJobSection article .price{
+	position: absolute;
+	top: $small-margin-padding;
+	right:$small-margin-padding;
+	color: $orange;
+}
+.jobs{
+	background-color: $lightgrey;
+	text-align: center;
+}
+.jobs h1, .jobs h2{
+	text-align: center;
+}
+.jobs table{
+	text-align: left;
+}
+.mainUserResume, .mainUserInformation{
+	display: none;
+}

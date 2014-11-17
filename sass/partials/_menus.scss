@@ -1,0 +1,49 @@
+
+/* Main header -------------------------------------------------------------------------*/
+.basicHeader{
+	position: relative;
+}
+.mainMenu{
+	top: $medium-margin-padding;
+	right: $medium-margin-padding;
+	position: absolute;
+}
+.basicHeader .mainMenu{
+	right: $medium-margin-padding;
+	top: $small-margin-padding;
+}
+.mainMenu li{
+	display: inline;
+	margin-left: $smedium-margin-padding;
+}
+.basicHeader .mainMenu li a{
+	color: $secondary-brand-color;
+	text-shadow: none;
+}
+.mainMenu li a{
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Profile nav -------------------------------------------------------------------------*/
+
+.profileNav{
+	background-color: $lightgrey;
+	width: 100%;
+	padding: $xsmall-margin-padding $medium-margin-padding;
+}
+.profileNav li{
+	display: inline;
+	margin-right: $medium-margin-padding;
+}
+.profileNav a{
+	color: $secondary-brand-color;
+}
+.profileNav a:hover{
+	color: $brand-color;
+}
+.mainUserProfile article{
+	padding: 8%;
+}

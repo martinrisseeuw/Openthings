@@ -1,0 +1,41 @@
+.icon{
+	width: $icon-width;
+	height: $icon-height;
+	display: inline-block;
+	background-position: center center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.bigIcon{
+	width: $big-icon-width;
+	height: $big-icon-width;
+	@extend .icon;
+}
+h2 span{
+	position: relative;
+	top: 3px;
+	margin-right: $small-margin-padding;
+}
+.star{background-image: url(../images/star.svg);}
+.replies{background-image: url(../images/replies.svg);}
+.duration{background-image: url(../images/duration.svg);}
+.budget{background-image: url(../images/budget.svg);}
+.area{background-image: url(../images/area.svg);}
+.language{background-image: url(../images/language.svg);}
+.remote{background-image: url(../images/remote.svg);}
+.country{background-image: url(../images/world.svg);}
+.skills{background-image: url(../images/skills.svg);}
+.title{background-image: url(../images/titleIcon.svg);}
+.text{background-image: url(../images/textIcon.svg);}
+
+.starWhite{background-image: url(../images/star_white.svg);}
+.repliesWhite{background-image: url(../images/replies_white.svg);}
+.durationWhite{background-image: url(../images/duration_white.svg);}
+.budgetWhite{background-image: url(../images/budget_white.svg);}
+.areaWhite{background-image: url(../images/area_white.svg);}
+.languageWhite{background-image: url(../images/language_white.svg);}
+.remoteWhite{background-image: url(../images/remote_white.svg);}
+.countryWhite{background-image: url(../images/world_white.svg);}
+.skillsWhite{background-image: url(../images/skills_white.svg);}
+.titleWhite{background-image: url(../images/titleIcon_white.svg);}
+.textWhite{background-image: url(../images/textIcon_white.svg);}
