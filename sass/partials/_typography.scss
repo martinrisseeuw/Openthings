@@ -28,7 +28,6 @@
          url('../fonts/mark_simonson_-_proxima_nova_regular-webfont.svg#proxima_nova_rgregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 html{
   font-size: 100%;
@@ -41,52 +40,12 @@ body{
 h1, h2, h3, h4, h5, h6{
 	font-weight: normal;
 }
-.subtitle{
-  font-family: 'proxima_nova_rgregular';
-  font-size: 1.5em; /* 24 / 16 */
-  line-height: 1em; /* 24 / 24 */
-  margin-bottom: 1em; /* 24 / 24 */
+h1{
+		font-size: 1.125em;
+		line-height: 1.6875em;
 }
-section header h2{
-    opacity: 0.75;
-}
-h1 {
-    font-family: 'nexa_boldregular';
-    font-size: 3em; /* 48 / 16 */
-    line-height: 1em; /* 48 / 48 */
-    margin-bottom: .5em; /* 24 / 48 */
-}
-h2 {
-    font-family: 'nexa_boldregular';
-    font-size: 2em; /* 32 / 16 */
-    line-height: 1.333333333333333em; /* 48 / 36 */
-    margin-bottom: .6666666666666667em; /* 24 / 36 */
-}
-h3 {
-    font-size: 1.5em; /* 24 / 16 */
-    line-height: 1em; /* 24 / 24 */
-    margin-bottom: 1em; /* 24 / 24 */
-}
-h4 {
-    font-size: 1.3125em; /* 21 / 16 */
-    line-height: 1.142857142857143em; /* 24 / 21 */
-    margin-bottom: 1.142857142857143em; /* 24 / 21 */
-}
-h5 {
-    font-size: 1.125em; /* 18 / 16 */
-    line-height: 1.333333333333333em; /* 24 / 18 */
-    margin-bottom: 1.333333333333333em; /* 24 / 18 */
-}
-h6 {
-    font-size: 1em; /* 16 / 16 */
-    line-height: 1.5em; /* 24 / 16 */
-    margin-bottom: 1.5em; /* 24 / 16 */
-}
-
 p{
-    font-size: 1em; /* 16 / 16 */
-    line-height: 1.5em; /* 24 / 16 */
-    margin-bottom: 1.5em; /* 24 / 16 */
+    margin-bottom: 1em; /* 24 / 16 */
 }
 a {
     text-decoration: none;

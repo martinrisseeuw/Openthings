@@ -10,7 +10,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+time, mark, audio, video, button, input {
   margin: 0;
   padding: 0;
   border: 0;
@@ -37,10 +37,6 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
-
-header, section, div, main, .profileNav, .mainFooter section, .topJobSection a, .topJobSection article {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
 
 @font-face {
   font-family: 'nexa_regularregular';
@@ -71,74 +67,12 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal; }
 
-.subtitle {
-  font-family: 'proxima_nova_rgregular';
-  font-size: 1.5em;
-  /* 24 / 16 */
-  line-height: 1em;
-  /* 24 / 24 */
-  margin-bottom: 1em;
-  /* 24 / 24 */ }
-
-section header h2 {
-  opacity: 0.75; }
-
 h1 {
-  font-family: 'nexa_boldregular';
-  font-size: 3em;
-  /* 48 / 16 */
-  line-height: 1em;
-  /* 48 / 48 */
-  margin-bottom: .5em;
-  /* 24 / 48 */ }
-
-h2 {
-  font-family: 'nexa_boldregular';
-  font-size: 2em;
-  /* 32 / 16 */
-  line-height: 1.333333333333333em;
-  /* 48 / 36 */
-  margin-bottom: .6666666666666667em;
-  /* 24 / 36 */ }
-
-h3 {
-  font-size: 1.5em;
-  /* 24 / 16 */
-  line-height: 1em;
-  /* 24 / 24 */
-  margin-bottom: 1em;
-  /* 24 / 24 */ }
-
-h4 {
-  font-size: 1.3125em;
-  /* 21 / 16 */
-  line-height: 1.142857142857143em;
-  /* 24 / 21 */
-  margin-bottom: 1.142857142857143em;
-  /* 24 / 21 */ }
-
-h5 {
   font-size: 1.125em;
-  /* 18 / 16 */
-  line-height: 1.333333333333333em;
-  /* 24 / 18 */
-  margin-bottom: 1.333333333333333em;
-  /* 24 / 18 */ }
-
-h6 {
-  font-size: 1em;
-  /* 16 / 16 */
-  line-height: 1.5em;
-  /* 24 / 16 */
-  margin-bottom: 1.5em;
-  /* 24 / 16 */ }
+  line-height: 1.6875em; }
 
 p {
-  font-size: 1em;
-  /* 16 / 16 */
-  line-height: 1.5em;
-  /* 24 / 16 */
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
   /* 24 / 16 */ }
 
 a {
@@ -150,8 +84,101 @@ a:hover {
   -webkit-transition: opacity 0.3s ease-in-out;
           transition: opacity 0.3s ease-in-out; }
 
+input {
+  border: 1px solid #edebeb; }
+
+button {
+  color: white;
+  background-color: #2cd2b4;
+  cursor: pointer;
+  padding: 0.625em; }
+
 .right {
   float: right; }
 
 .left {
   float: left; }
+
+body {
+  background-color: #edebeb; }
+
+.mainContent {
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.mainContent .featured {
+  width: 47%; }
+
+.mainContent li {
+  margin: 0 0 2% 2%;
+  width: 22.5%;
+  background-color: white; }
+
+.mainContent li header {
+  padding: 0.3125em 0.9375em; }
+
+.mainContent article img {
+  width: 100%; }
+
+.logo, .shareDesignBtn, .mainNavigation li, .mainNavigation li a {
+  height: 100%; }
+
+.mainNavigation {
+  background-color: #edebeb;
+  height: 75px;
+  font-size: 1.3125em; }
+
+.logo {
+  background: #323232 url(../images/logo.svg) no-repeat 0.9em center;
+  padding: 0 3em;
+  line-height: 3.6em;
+  color: white; }
+
+.shareDesignBtn {
+  background-color: #2cd2b4;
+  padding: 0 1.875em;
+  line-height: 3.6em;
+  color: white; }
+
+.mainNavigation li {
+  display: inline-block; }
+
+.mainNavigation li a {
+  color: #666666;
+  padding: 0 3em;
+  line-height: 3.6em;
+  display: inline-block; }
+
+.mainNavigation .current a {
+  background-color: white; }
+
+.mainNavigation li a:hover {
+  background-color: white; }
+
+.mainSearch {
+  width: 100%;
+  background-color: white;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0.9375em 1.875em;
+  margin-bottom: 1.875em; }
+
+.mainSearch li {
+  display: inline;
+  margin: 0 0 0 1.875em;
+  line-height: 3.125em; }
+
+.mainSearch input {
+  width: 24.375em;
+  height: 3.125em;
+  padding: 0 0.9375em;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.mainSearch button {
+  height: 3.125em;
+  padding: 0 0.9375em;
+  margin: 0 0.3125em; }

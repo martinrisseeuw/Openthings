@@ -1,53 +1,21 @@
-$tiny-box-padding: 1.5%;
-$small-box-padding: 3%;
-$medium-box-padding: 6%;
-$big-box-padding: 9%;
+$tiny-margin-padding: 0.3125em;
+$xsmall-margin-padding: 0.625em;
+$small-margin-padding: 0.9375em;
+$smedium-margin-padding: 1.25em;
+$medium-margin-padding: 1.875em;
+$big-margin-padding: 3.125em;
 
-$small-padding-width: 0 3%;
-$medium-padding-width: 0 6%;
-$big-padding-width: 0 9%;
+$icon-width: 1.875em;
+$icon-height: 1.875em;
 
-$small-padding-heights: 0 3%;
-$medium-padding-heights: 0 6%;
-$big-padding-heights: 0 9%;
+$big-icon-width: 2.5em;
+$big-icon-height: 2.5em;
 
-$small-box-padding-heights-bigger-width: 1.5% 3%;
-$medium-box-padding-heights-bigger-width: 3% 6%;
-$big-box-padding-heights-bigger-width: 4.5% 9%;
-
-$small-padding-heights-bigger-width: 5px 10px;
-$medium-padding-heights-bigger-width: 10px 20px;
-$big-padding-heights-bigger-width: 20px 40px;
-
-$small-padding-width-bigger-heights: 1.5% 3%;
-$medium-padding-width-bigger-heights: 3% 6%;
-$big-padding-width-bigger-heights: 4.5% 9%;
-
-$small-margin: 3%;
-$medium-margin: 6%;
-$big-margin: 9%;
-
-$tiny-margin-padding: 5px;
-$xsmall-margin-padding: 10px;
-$small-margin-padding: 15px;
-$smedium-margin-padding: 20px;
-$medium-margin-padding: 30px;
-$big-margin-padding: 50px;
-
-$icon-width: 30px;
-$icon-height: 30px;
-
-$big-icon-width: 30px;
-$big-icon-height: 30px;
-
-$standard-border-radius: 6px;
-$medium-border-radius: 12px;
-
-@mixin border-radius($radius) {
-  -webkit-border-radius: $radius;
-     -moz-border-radius: $radius;
-      -ms-border-radius: $radius;
-          border-radius: $radius;
+@mixin box-sizing($box-sizing) {
+  -webkit-box-sizing: $box-sizing;
+     -moz-box-sizing: $box-sizing;
+      -ms-box-sizing: $box-sizing;
+          box-sizing: $box-sizing;
 }
 
 @mixin box-shadow($top, $left, $blur, $color, $inset:"") {

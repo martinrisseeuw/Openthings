@@ -1,1 +1,21 @@
+body{
+	background-color: $lightgrey;
+}
+.mainContent{
+	@include box-sizing(border-box);
+}
+.mainContent .featured{
+	width: 47%;
+}
 
+.mainContent li{
+	margin: 0 0 2% 2%;
+	width: 22.5%;
+	background-color: white;
+}
+.mainContent li header{
+	padding: $tiny-margin-padding $small-margin-padding ;
+}
+.mainContent article img{
+	width: 100%;
+}
