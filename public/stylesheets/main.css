@@ -77,7 +77,8 @@ p {
 
 a {
   text-decoration: none;
-  opacity: 1; }
+  opacity: 1;
+  color: #2cd2b4; }
 
 a:hover {
   opacity: 0.8;
@@ -103,12 +104,16 @@ body {
   background-color: #edebeb; }
 
 .mainContent {
+  width: 100%;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box; }
 
-.mainContent .featured {
+.mainContent .featuredRight, .mainContent .featured {
   width: 47%; }
+
+.mainContent .featuredRight {
+  margin: 0 2% 0 2%; }
 
 .mainContent li {
   margin: 0 0 2% 2%;
@@ -117,6 +122,12 @@ body {
 
 .mainContent li header {
   padding: 0.3125em 0.9375em; }
+
+.mainContent li a {
+  color: #323232; }
+
+.mainContent article {
+  overflow: hidden; }
 
 .mainContent article img {
   width: 100%; }
@@ -182,3 +193,15 @@ body {
   height: 3.125em;
   padding: 0 0.9375em;
   margin: 0 0.3125em; }
+
+.mainFooter {
+  width: 100%;
+  background-color: white; }
+
+.mainFooter section {
+  width: 21%;
+  margin: 2%; }
+
+.mainFooter li {
+  line-height: 1.5em;
+  font-size: 0.875em; }

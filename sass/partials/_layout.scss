@@ -2,10 +2,15 @@ body{
 	background-color: $lightgrey;
 }
 .mainContent{
+	width: 100%;
 	@include box-sizing(border-box);
 }
-.mainContent .featured{
+.mainContent .featuredRight, .mainContent .featured{
 	width: 47%;
+}
+
+.mainContent .featuredRight{
+	margin: 0 2% 0 2%;
 }
 
 .mainContent li{
@@ -16,6 +21,13 @@ body{
 .mainContent li header{
 	padding: $tiny-margin-padding $small-margin-padding ;
 }
+.mainContent li a{
+	color: $darkgrey;
+}
+.mainContent article{
+	overflow: hidden;
+}
+
 .mainContent article img{
 	width: 100%;
 }

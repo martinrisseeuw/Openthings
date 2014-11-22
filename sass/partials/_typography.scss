@@ -47,9 +47,10 @@ h1{
 p{
     margin-bottom: 1em; /* 24 / 16 */
 }
-a {
+a{
     text-decoration: none;
     opacity: 1;
+	color: $brand-color;
 }
 a:hover{
     opacity: 0.8;
