@@ -39,18 +39,6 @@ table {
   border-spacing: 0; }
 
 @font-face {
-  font-family: 'nexa_regularregular';
-  src: url("../fonts/nexa_regular-webfont.eot");
-  src: url("../fonts/nexa_regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/nexa_regular-webfont.woff") format("woff"), url("../fonts/nexa_regular-webfont.ttf") format("truetype"), url("../fonts/nexa_regular-webfont.svg#nexa_regularregular") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'nexa_boldregular';
-  src: url("../fonts/nexa_bold-webfont.eot");
-  src: url("../fonts/nexa_bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/nexa_bold-webfont.woff") format("woff"), url("../fonts/nexa_bold-webfont.ttf") format("truetype"), url("../fonts/nexa_bold-webfont.svg#nexa_boldregular") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
   font-family: 'proxima_nova_rgregular';
   src: url("../fonts/mark_simonson_-_proxima_nova_regular-webfont.eot");
   src: url("../fonts/mark_simonson_-_proxima_nova_regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/mark_simonson_-_proxima_nova_regular-webfont.woff") format("woff"), url("../fonts/mark_simonson_-_proxima_nova_regular-webfont.ttf") format("truetype"), url("../fonts/mark_simonson_-_proxima_nova_regular-webfont.svg#proxima_nova_rgregular") format("svg");
@@ -100,20 +88,22 @@ button {
 .left {
   float: left; }
 
-body {
-  background-color: #edebeb; }
-
-.mainContent {
-  width: 100%;
+.projectComments, .mainContent, .mainContent .projectHeader div, .mainContent .projectDetails {
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box; }
 
-.mainContent .featuredRight, .mainContent .featured {
-  width: 47%; }
+body {
+  background-color: #edebeb; }
 
-.mainContent .featuredRight {
-  margin: 0 2% 0 2%; }
+.mainContent {
+  width: 100%; }
+
+.projectPage .mainContent {
+  padding: 0 2%; }
+
+.mainContent .featured {
+  width: 47%; }
 
 .mainContent li {
   margin: 0 0 2% 2%;
@@ -126,11 +116,27 @@ body {
 .mainContent li a {
   color: #323232; }
 
-.mainContent article {
-  overflow: hidden; }
-
 .mainContent article img {
   width: 100%; }
+
+.mainContent .projectHeader img, .mainContent .projectHeader div {
+  width: 100%; }
+
+.mainContent .projectHeader div {
+  padding: 2%;
+  background-color: #323232;
+  color: white; }
+
+.mainContent .projectDetails {
+  width: 100%;
+  padding: 2%;
+  background-color: rgba(44, 210, 180, 0.3); }
+
+.projectComments {
+  background-color: white;
+  width: 100%;
+  margin-bottom: 2%;
+  padding: 2%; }
 
 .logo, .shareDesignBtn, .mainNavigation li, .mainNavigation li a {
   height: 100%; }
@@ -195,13 +201,22 @@ body {
   margin: 0 0.3125em; }
 
 .mainFooter {
+  padding: 0 2%; }
+
+.mainFooter p {
+  font-size: 0.875em;
+  color: #666666;
+  margin-top: 1em;
+  line-height: 3em; }
+
+.footerNav {
   width: 100%;
   background-color: white; }
 
-.mainFooter section {
+.footerNav section {
   width: 21%;
   margin: 2%; }
 
-.mainFooter li {
+.footerNav li {
   line-height: 1.5em;
   font-size: 0.875em; }
