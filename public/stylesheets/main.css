@@ -82,6 +82,11 @@ button {
   cursor: pointer;
   padding: 0.625em; }
 
+.icon {
+  width: 30px;
+  height: 30px;
+  fill: #333; }
+
 .right {
   float: right; }
 

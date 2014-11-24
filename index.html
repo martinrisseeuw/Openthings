@@ -1,25 +1,19 @@
 <!DOCTYPE html>
-<html lang="en-US" class="white">
+<html lang="en-US" ng-app="">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="project description" />
-
     <title>Basic HTML start template</title>
     <link rel="icon" href="public/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="public/stylesheets/main.css" />
+
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 </head>
 <body>
-    <nav class="mainNavigation">
-        <a href="index.html" class="logo left">openThings</a>
-        <ul class="left">
-            <li class="current left"><a href="#">Designs</a></li>
-            <li class="left"><a href="#">Tutorials</a></li>
-            <li class="left"><a href="#">Designers</a></li>
-        </ul>
-        <a href="#" class="shareDesignBtn right">share your designs</a>
-    </nav>
+    <div class="iconSprite" ng-include="'public/icons/svg-defs.svg'"></div>
+    <nav class="mainNavigation" ng-include="'navigation.html'"></nav>
     <section class="mainSearch">
         <form class="left">
             <input placeholder="Search: description, tag, type of product">
