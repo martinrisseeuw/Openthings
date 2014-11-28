@@ -1,25 +1,19 @@
 <!DOCTYPE html>
-<html lang="en-US" class="white">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="project description" />
-
     <title>Basic HTML start template</title>
     <link rel="icon" href="public/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="public/stylesheets/main.css" />
+
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 </head>
-<body class="projectPage">
-    <nav class="mainNavigation">
-        <a href="#" class="logo left">openThings</a>
-        <ul class="left">
-            <li class="current left"><a href="#">Designs</a></li>
-            <li class="left"><a href="#">Tutorials</a></li>
-            <li class="left"><a href="#">Designers</a></li>
-        </ul>
-        <a href="#" class="shareDesignBtn right">share your designs</a>
-    </nav>
+<body>
+    <div class="iconSprite" ng-include="'public/icons/svg-defs.svg'"></div>
+		<?php include 'partials/navigation.html';?>
     <section class="mainSearch">
         <form class="left">
             <input placeholder="Search: description, tag, type of product">
@@ -32,21 +26,26 @@
         </ul>
     </section>
     <section class="mainContent left">
-        <header class="projectHeader left">
-            <img class="left" src="public/images/project_thumbnail.jpg" />
-            <div class="left">
-                <h1>MK1</h1>
-                <p>A bluetooth stereo speaker, it holds 2 2" Full-range (15Watt RMS) speakers and it is powered by a 15Watt amp, the housing creates a tuning frequency of 140Hz.
-
-Designed by: Luciano Tjitrodipo</p>
-            </div>
-        </header>
-        <section class="projectDetails left">
-            aaa
-        </section>
-        <section class="projectComments left">
-            aaa
-        </section>
+        <ul>
+						<li class="left">
+                <article>
+                    <a href="project.php"><img src="public/images/shareable_energy.jpg" /></a>
+                    <header>
+                        <a href="project.php"><h1>Shareable energy blocks</h1></a>
+                        <a href="project.php"><p>A project for green shareable energy</p></a>
+                    </header>
+                </article>
+            </li>
+            <li class="left">
+                <article>
+                    <a href="project.php"><img src="public/images/project_thumbnail.jpg" /></a>
+                    <header>
+                        <a href="project.php"><h1 class="delta">Plywood desk</h1></a>
+                        <a href="project.php"><p>Easy to build plywood desk</p></a>
+                    </header>
+                </article>
+            </li>
+        </ul>
     </section>
     <nav class="footerNav left">
         <section class="left">

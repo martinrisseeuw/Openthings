@@ -10,7 +10,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video, button, input {
+time, mark, audio, video, button, input, textarea {
   margin: 0;
   padding: 0;
   border: 0;
@@ -131,6 +131,9 @@ body {
   padding: 2%;
   background-color: #323232;
   color: white; }
+
+.projectHeader p {
+  max-width: 800px; }
 
 .mainContent .projectDetails {
   width: 100%;

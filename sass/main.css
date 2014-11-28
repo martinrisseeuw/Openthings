@@ -1,0 +1,270 @@
+/* line 13, /Applications/MAMP/htdocs/Openthings/sass/modules/reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, button, input, textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-font-smoothing: antialiased; }
+
+/* HTML5 display-role reset for older browsers */
+/* line 23, /Applications/MAMP/htdocs/Openthings/sass/modules/reset */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 26, /Applications/MAMP/htdocs/Openthings/sass/modules/reset */
+ol, ul {
+  list-style: none; }
+
+/* line 29, /Applications/MAMP/htdocs/Openthings/sass/modules/reset */
+blockquote, q {
+  quotes: none; }
+
+/* line 33, /Applications/MAMP/htdocs/Openthings/sass/modules/reset */
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+/* line 37, /Applications/MAMP/htdocs/Openthings/sass/modules/reset */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: 'proxima_nova_rgregular';
+  src: url('../fonts/mark_simonson_-_proxima_nova_regular-webfont.eot');
+  src: url('../fonts/mark_simonson_-_proxima_nova_regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/mark_simonson_-_proxima_nova_regular-webfont.woff') format('woff'), url('../fonts/mark_simonson_-_proxima_nova_regular-webfont.ttf') format('truetype'), url('../fonts/mark_simonson_-_proxima_nova_regular-webfont.svg#proxima_nova_rgregular') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+/* line 11, /Applications/MAMP/htdocs/Openthings/sass/partials/typography */
+html {
+  font-size: 100%;
+  -webkit-font-smoothing: antialiased; }
+
+/* line 15, /Applications/MAMP/htdocs/Openthings/sass/partials/typography */
+body {
+  font-family: 'proxima_nova_rgregular', sans-serif;
+  color: #323a45; }
+
+/* line 19, /Applications/MAMP/htdocs/Openthings/sass/partials/typography */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+
+/* line 22, /Applications/MAMP/htdocs/Openthings/sass/partials/typography */
+h1 {
+  font-size: 1.125em;
+  line-height: 1.6875em; }
+
+/* line 26, /Applications/MAMP/htdocs/Openthings/sass/partials/typography */
+p {
+  margin-bottom: 1em;
+  /* 24 / 16 */ }
+
+/* line 29, /Applications/MAMP/htdocs/Openthings/sass/partials/typography */
+a {
+  text-decoration: none;
+  opacity: 1;
+  color: #2cd2b4; }
+
+/* line 34, /Applications/MAMP/htdocs/Openthings/sass/partials/typography */
+a:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s ease-in-out; }
+
+/* line 1, /Applications/MAMP/htdocs/Openthings/sass/partials/forms */
+input {
+  border: 1px solid #edebeb; }
+
+/* line 1, /Applications/MAMP/htdocs/Openthings/sass/partials/buttons */
+button {
+  color: white;
+  background-color: #2cd2b4;
+  cursor: pointer;
+  padding: 0.625em; }
+
+/* line 1, /Applications/MAMP/htdocs/Openthings/sass/partials/icons */
+.icon {
+  width: 30px;
+  height: 30px;
+  fill: #333; }
+
+/* line 1, /Applications/MAMP/htdocs/Openthings/sass/partials/typical_classes */
+.right {
+  float: right; }
+
+/* line 4, /Applications/MAMP/htdocs/Openthings/sass/partials/typical_classes */
+.left {
+  float: left; }
+
+/* line 1, /Applications/MAMP/htdocs/Openthings/sass/partials/layout */
+.projectComments, .mainContent, .mainContent .projectHeader div, .mainContent .projectDetails {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 4, /Applications/MAMP/htdocs/Openthings/sass/partials/layout */
+body {
+  background-color: #edebeb; }
+
+/* line 7, /Applications/MAMP/htdocs/Openthings/sass/partials/layout */
+.mainContent {
+  width: 100%; }
+
+/* line 10, /Applications/MAMP/htdocs/Openthings/sass/partials/layout */
+.projectPage .mainContent {
+  padding: 0 2%; }
+
+/* line 13, /Applications/MAMP/htdocs/Openthings/sass/partials/layout */
+.mainContent .featured {
+  width: 47%; }
+
+/* line 16, /Applications/MAMP/htdocs/Openthings/sass/partials/layout */
+.mainContent li {
+  margin: 0 0 2% 2%;
+  width: 22.5%;
+  background-color: white; }
+
+/* line 21, /Applications/MAMP/htdocs/Openthings/sass/partials/layout */
+.mainContent li header {
+  padding: 0.3125em 0.9375em; }
+
+/* line 24, /Applications/MAMP/htdocs/Openthings/sass/partials/layout */
+.mainContent li a {
+  color: #323232; }
+
+/* line 27, /Applications/MAMP/htdocs/Openthings/sass/partials/layout */
+.mainContent article img {
+  width: 100%; }
+
+/* line 30, /Applications/MAMP/htdocs/Openthings/sass/partials/layout */
+.mainContent .projectHeader img, .mainContent .projectHeader div {
+  width: 100%; }
+
+/* line 33, /Applications/MAMP/htdocs/Openthings/sass/partials/layout */
+.mainContent .projectHeader div {
+  padding: 2%;
+  background-color: #323232;
+  color: white; }
+
+/* line 38, /Applications/MAMP/htdocs/Openthings/sass/partials/layout */
+.projectHeader p {
+  max-width: 800px; }
+
+/* line 42, /Applications/MAMP/htdocs/Openthings/sass/partials/layout */
+.mainContent .projectDetails {
+  width: 100%;
+  padding: 2%;
+  background-color: rgba(44, 210, 180, 0.3); }
+
+/* line 47, /Applications/MAMP/htdocs/Openthings/sass/partials/layout */
+.projectComments {
+  background-color: white;
+  width: 100%;
+  margin-bottom: 2%;
+  padding: 2%; }
+
+/* line 1, /Applications/MAMP/htdocs/Openthings/sass/partials/menus */
+.logo, .shareDesignBtn, .mainNavigation li, .mainNavigation li a {
+  height: 100%; }
+
+/* line 4, /Applications/MAMP/htdocs/Openthings/sass/partials/menus */
+.mainNavigation {
+  background-color: #edebeb;
+  height: 75px;
+  font-size: 1.3125em; }
+
+/* line 9, /Applications/MAMP/htdocs/Openthings/sass/partials/menus */
+.logo {
+  background: #323232 url(../images/logo.svg) no-repeat 0.9em center;
+  padding: 0 3em;
+  line-height: 3.6em;
+  color: white; }
+
+/* line 15, /Applications/MAMP/htdocs/Openthings/sass/partials/menus */
+.shareDesignBtn {
+  background-color: #2cd2b4;
+  padding: 0 1.875em;
+  line-height: 3.6em;
+  color: white; }
+
+/* line 21, /Applications/MAMP/htdocs/Openthings/sass/partials/menus */
+.mainNavigation li {
+  display: inline-block; }
+
+/* line 25, /Applications/MAMP/htdocs/Openthings/sass/partials/menus */
+.mainNavigation li a {
+  color: #666666;
+  padding: 0 3em;
+  line-height: 3.6em;
+  display: inline-block; }
+
+/* line 31, /Applications/MAMP/htdocs/Openthings/sass/partials/menus */
+.mainNavigation .current a {
+  background-color: white; }
+
+/* line 34, /Applications/MAMP/htdocs/Openthings/sass/partials/menus */
+.mainNavigation li a:hover {
+  background-color: white; }
+
+/* line 1, /Applications/MAMP/htdocs/Openthings/sass/partials/search */
+.mainSearch {
+  width: 100%;
+  background-color: white;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0.9375em 1.875em;
+  margin-bottom: 1.875em; }
+
+/* line 8, /Applications/MAMP/htdocs/Openthings/sass/partials/search */
+.mainSearch li {
+  display: inline;
+  margin: 0 0 0 1.875em;
+  line-height: 3.125em; }
+
+/* line 13, /Applications/MAMP/htdocs/Openthings/sass/partials/search */
+.mainSearch input {
+  width: 24.375em;
+  height: 3.125em;
+  padding: 0 0.9375em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 19, /Applications/MAMP/htdocs/Openthings/sass/partials/search */
+.mainSearch button {
+  height: 3.125em;
+  padding: 0 0.9375em;
+  margin: 0 0.3125em; }
+
+/* line 1, /Applications/MAMP/htdocs/Openthings/sass/partials/footer */
+.mainFooter {
+  padding: 0 2%; }
+
+/* line 4, /Applications/MAMP/htdocs/Openthings/sass/partials/footer */
+.mainFooter p {
+  font-size: 0.875em;
+  color: #666666;
+  margin-top: 1em;
+  line-height: 3em; }
+
+/* line 10, /Applications/MAMP/htdocs/Openthings/sass/partials/footer */
+.footerNav {
+  width: 100%;
+  background-color: white; }
+
+/* line 14, /Applications/MAMP/htdocs/Openthings/sass/partials/footer */
+.footerNav section {
+  width: 21%;
+  margin: 2%; }
+
+/* line 19, /Applications/MAMP/htdocs/Openthings/sass/partials/footer */
+.footerNav li {
+  line-height: 1.5em;
+  font-size: 0.875em; }
+
+/*# sourceMappingURL=main.css.map */

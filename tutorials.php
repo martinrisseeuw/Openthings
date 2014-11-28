@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US" ng-app="">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,89 +13,33 @@
 </head>
 <body>
     <div class="iconSprite" ng-include="'public/icons/svg-defs.svg'"></div>
-    <nav class="mainNavigation" ng-include="'navigation.html'"></nav>
+		<?php include 'partials/navigation.html';?>
     <section class="mainSearch">
         <form class="left">
             <input placeholder="Search: description, tag, type of product">
             <button type="submit">Search</button>
         </form>
         <ul>
-            <li>Type of machine</li>
-            <li>Type of product</li>
             <li>Expanded search</li>
         </ul>
     </section>
     <section class="mainContent left">
         <ul>
-            <li class="left">
+						<li class="left">
                 <article>
-                    <a href="project.html"><img src="public/images/project_thumbnail.jpg" /></a>
+                    <a href="project.php"><img src="public/images/shareable_energy.jpg" /></a>
                     <header>
-                        <a href="project.html"><h1>Plywood desk</h1></a>
-                        <a href="project.html"><p>Easy to build plywood desk</p></a>
+                        <a href="project.php"><h1>Shareable energy blocks</h1></a>
+                        <a href="project.php"><p>A project for green shareable energy</p></a>
                     </header>
                 </article>
             </li>
             <li class="left">
                 <article>
-                        <img src="public/images/project_thumbnail.jpg" />
+                    <a href="project.php"><img src="public/images/project_thumbnail.jpg" /></a>
                     <header>
-                        <h1>MK1</h1>
-                        <p>by Luciao Tjitrodipo</p>
-                    </header>
-                </article>
-            </li>
-            <li class="left">
-                <article>
-                        <img src="public/images/project_thumbnail.jpg" />
-                    <header>
-                        <h1>MK1</h1>
-                        <p>by Luciao Tjitrodipo</p>
-                    </header>
-                </article>
-            </li>
-            <li class="left">
-                <article>
-                        <img src="public/images/project_thumbnail.jpg" />
-                    <header>
-                        <h1>MK1</h1>
-                        <p>by Luciao Tjitrodipo</p>
-                    </header>
-                </article>
-            </li>
-            <li class="left">
-                <article>
-                        <img src="public/images/project_thumbnail.jpg" />
-                    <header>
-                        <h1>MK1</h1>
-                        <p>by Luciao Tjitrodipo</p>
-                    </header>
-                </article>
-            </li>
-            <li class="left">
-                <article>
-                        <img src="public/images/project_thumbnail.jpg" />
-                    <header>
-                        <h1>MK1</h1>
-                        <p>by Luciao Tjitrodipo</p>
-                    </header>
-                </article>
-            </li>
-            <li class="left">
-                <article>
-                        <img src="public/images/project_thumbnail.jpg" />
-                    <header>
-                        <h1>MK1</h1>
-                        <p>by Luciao Tjitrodipo</p>
-                    </header>
-                </article>
-            </li>
-            <li class="left">
-                <article>
-                        <img src="public/images/project_thumbnail.jpg" />
-                    <header>
-                        <h1>MK1</h1>
-                        <p>by Luciao Tjitrodipo</p>
+                        <a href="project.php"><h1 class="delta">Plywood desk</h1></a>
+                        <a href="project.php"><p>Easy to build plywood desk</p></a>
                     </header>
                 </article>
             </li>

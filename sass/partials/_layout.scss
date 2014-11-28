@@ -35,6 +35,10 @@ body{
 	background-color: $darkgrey;
 	color: white;
 }
+.projectHeader p{
+	max-width: 800px;
+}
+
 .mainContent .projectDetails{
 	width: 100%;
 	padding: 2%;
