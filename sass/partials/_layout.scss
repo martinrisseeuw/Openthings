@@ -16,6 +16,8 @@ body{
 .mainContent li{
 	margin: 0 0 2% 2%;
 	width: 22.5%;
+}
+.mainContent li article{
 	background-color: white;
 }
 .mainContent li header{
@@ -39,14 +41,26 @@ body{
 	max-width: 800px;
 }
 
-.mainContent .projectDetails{
-	width: 100%;
+.projectDetails{
+	width: 50%;
 	padding: 2%;
 	background-color: rgba($brand-color, .3);
+	color: #333;
 }
+.projectDetails li span{
+	font-size: 5em;
+}
+.projectDetails li h5{
+	margin-top: 1em;
+}
+.projectDetails li{
+	text-align: center;
+	margin: 0 2% 0 0;
+}
+
 .projectComments{
 	background-color: white;
-	width: 100%;
+	width: 50%;
 	margin-bottom: 2%;
 	padding: 2%;
 }

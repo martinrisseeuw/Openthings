@@ -12,17 +12,7 @@
 </head>
 <body class="projectPage">
     <?php include 'partials/navigation.html';?>
-    <section class="mainSearch">
-        <form class="left">
-            <input placeholder="Search: description, tag, type of product">
-            <button type="submit">Search</button>
-        </form>
-        <ul>
-            <li>Type of machine</li>
-            <li>Type of product</li>
-            <li>Expanded search</li>
-        </ul>
-    </section>
+    <?php include 'partials/search.html';?>
     <section class="mainContent left">
         <header class="projectHeader left">
             <img class="left" src="public/images/shareable_energy.jpg" />
@@ -32,7 +22,28 @@
             </div>
         </header>
         <section class="projectDetails left">
-            aaa
+					<ul>
+						<li class="left">
+							<span class="icon-icon_loupe"></span>
+							<h5>Download</h5>
+							<h6>manual & files</h6>
+						</li>
+						<li class="left">
+							<span class="icon-icon_hammer"></span>
+							<h5>Contact</h5>
+							<h6>maker</h6>
+						</li>
+						<li class="left">
+							<span class="icon-icon_loupe"></span>
+							<h5>Project</h5>
+							<h6>difficulty</h6>
+						</li>
+						<li class="left">
+							<span class="icon-icon_share"></span>
+							<h5>Share</h5>
+							<h6>project</h6>
+						</li>
+					</ul>
         </section>
         <section class="projectComments left">
             aaa

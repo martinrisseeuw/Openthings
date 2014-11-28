@@ -12,19 +12,8 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 </head>
 <body>
-    <div class="iconSprite" ng-include="'public/icons/svg-defs.svg'"></div>
 		<?php include 'partials/navigation.html';?>
-    <section class="mainSearch">
-        <form class="left">
-            <input placeholder="Search: description, tag, type of product">
-            <button type="submit">Search</button>
-        </form>
-        <ul>
-            <li>Type of machine</li>
-            <li>Type of product</li>
-            <li>Expanded search</li>
-        </ul>
-    </section>
+    <?php include 'partials/search.html';?>
     <section class="mainContent left">
         <ul>
 						<li class="left">
