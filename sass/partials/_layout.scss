@@ -4,7 +4,7 @@
 body{
 	background-color: $lightgrey;
 }
-.mainContent{
+.mainContent, .projectHeader, .mainContent .projectHeader img, .mainContent .projectHeader div{
 	width: 100%;
 }
 .projectPage .mainContent{
@@ -24,17 +24,10 @@ body{
 .mainContent li a{
 	color: $darkgrey;
 }
-.mainContent .projectHeader img, .mainContent .projectHeader div{
-	width: 100%;
-}
 .mainContent .projectHeader div{
 	padding: 2%;
 	background-color: $darkgrey;
 	color: white;
-}
-.projectHeader{
-	width: 100%;
-	text-align: left;
 }
 .projectHeader p{
 	max-width: 800px;
@@ -44,25 +37,27 @@ body{
 	padding: 2%;
 	background-color: rgba($brand-color, .3);
 	color: #333;
-	min-height: 150px;
+	min-height: 180px;
 }
 .projectDetails li span{
 	font-size: 3em;
 }
 .projectDetails li h5{
 	margin-top: 1em;
+	margin-bottom: 0;
+}
+.projectDetails li h6{
+	margin-bottom: 0;
 }
 .projectDetails li{
-	text-align: center;
 	margin: 0 2% 0 0;
 }
 .projectComments{
 	background-color: white;
-	text-align: left;
 	width: 50%;
 	margin-bottom: 2%;
 	padding: 4%;
-	min-height: 150px;
+	min-height: 180px;
 }
 .projectComments div{
 	width: 50%;
@@ -76,5 +71,8 @@ body{
 }
 .standardPage .mainContent{
 	padding: 2%;
-	text-align: left;
+}
+.standardPage .mainContent p{
+	max-width: 40em;
+	font-size: 1.5em;
 }

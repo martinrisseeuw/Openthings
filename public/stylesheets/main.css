@@ -52,16 +52,59 @@ body {
   font-family: 'proxima_nova_rgregular', sans-serif;
   color: #323a45; }
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: normal; }
+h1, .alpha,
+h2, .beta,
+h3, .gamma,
+h4, .delta,
+h5, .epsilon,
+h6, .zeta {
+  margin: 0; }
 
-h1 {
-  font-size: 1.125em;
-  line-height: 1.6875em; }
+h1, .alpha {
+  font-size: 2.625em;
+  line-height: 1.0476190476190477;
+  margin-bottom: 0.5238095238095238em; }
 
-p {
-  margin-bottom: 1em;
-  /* 24 / 16 */ }
+h2, .beta {
+  font-size: 1.96875em;
+  line-height: 1.3968253968253967;
+  margin-bottom: 0.6984126984126984em; }
+
+h3, .gamma {
+  font-size: 1.3125em;
+  line-height: 1.0476190476190477;
+  margin-bottom: 1.0476190476190477em; }
+
+h4, .delta {
+  font-size: 1.1484375em;
+  line-height: 1.1972789115646258;
+  margin-bottom: 1.1972789115646258em; }
+
+h5, .epsilon {
+  font-size: 0.984375em;
+  line-height: 1.3968253968253967;
+  margin-bottom: 1.3968253968253967em; }
+
+h6, .zeta {
+  font-size: 0.875em;
+  line-height: 1.5714285714285714;
+  margin-bottom: 1.5714285714285714em; }
+
+p,
+blockquote {
+  font-size: 0.875em;
+  margin: 0 0 1.5714285714285714em;
+  line-height: 1.5714285714285714;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto; }
+
+dd,
+dt,
+li {
+  line-height: 1.5714285714285714;
+  margin: 0; }
 
 a {
   text-decoration: none;
@@ -282,11 +325,6 @@ button {
 .icon-icon_world:before {
   content: "\e639"; }
 
-.mainContent {
-  position: relative;
-  list-style: none;
-  text-align: center; }
-
 /* Common style */
 .mainContent figure {
   position: relative;
@@ -406,7 +444,7 @@ figure.effect-lily:hover p {
 body {
   background-color: #edebeb; }
 
-.mainContent {
+.mainContent, .projectHeader, .mainContent .projectHeader img, .mainContent .projectHeader div {
   width: 100%; }
 
 .projectPage .mainContent {
@@ -426,17 +464,10 @@ body {
 .mainContent li a {
   color: #323232; }
 
-.mainContent .projectHeader img, .mainContent .projectHeader div {
-  width: 100%; }
-
 .mainContent .projectHeader div {
   padding: 2%;
   background-color: #323232;
   color: white; }
-
-.projectHeader {
-  width: 100%;
-  text-align: left; }
 
 .projectHeader p {
   max-width: 800px; }
@@ -446,25 +477,27 @@ body {
   padding: 2%;
   background-color: rgba(44, 210, 180, 0.3);
   color: #333;
-  min-height: 150px; }
+  min-height: 180px; }
 
 .projectDetails li span {
   font-size: 3em; }
 
 .projectDetails li h5 {
-  margin-top: 1em; }
+  margin-top: 1em;
+  margin-bottom: 0; }
+
+.projectDetails li h6 {
+  margin-bottom: 0; }
 
 .projectDetails li {
-  text-align: center;
   margin: 0 2% 0 0; }
 
 .projectComments {
   background-color: white;
-  text-align: left;
   width: 50%;
   margin-bottom: 2%;
   padding: 4%;
-  min-height: 150px; }
+  min-height: 180px; }
 
 .projectComments div {
   width: 50%;
@@ -477,8 +510,11 @@ body {
   top: 0.25em; }
 
 .standardPage .mainContent {
-  padding: 2%;
-  text-align: left; }
+  padding: 2%; }
+
+.standardPage .mainContent p {
+  max-width: 40em;
+  font-size: 1.5em; }
 
 .logo, .shareDesignBtn, .mainNavigation li, .mainNavigation li a {
   height: 100%; }
@@ -505,7 +541,7 @@ body {
 
 .mainNavigation li a {
   color: #666666;
-  padding: 0 3em;
+  padding: 0 2em;
   line-height: 3.6em;
   display: inline-block; }
 

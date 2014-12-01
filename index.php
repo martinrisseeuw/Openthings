@@ -23,7 +23,7 @@
 								<figcaption>
 									<div>
 										<h2>Shareable enegry</h2>
-										<p>Lily likes to play with crayons and pencils</p>
+										<p>Share your green energy with others</p>
 									</div>
 									<a href="project.php">View more</a>
 								</figcaption>			
