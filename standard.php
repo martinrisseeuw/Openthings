@@ -11,26 +11,14 @@
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 </head>
-<body>
+<body class="standardPage">
 		<?php include 'partials/navigation.html';?>
     <?php include 'partials/search.html';?>
     <section class="mainContent left">
-        <ul>
-					<li class="left">
-						<article>
-							<figure class="effect-lily">
-								<img src="public/images/shareable_energy.jpg" alt="img12"/>
-								<figcaption>
-									<div>
-										<h2>Shareable enegry</h2>
-										<p>Lily likes to play with crayons and pencils</p>
-									</div>
-									<a href="project.php">View more</a>
-								</figcaption>			
-							</figure>
-						</article>
-					</li>
-        </ul>
+			<div>
+				<h1>kusadjads</h1>
+				<p>Open design is the development of physical products, machines and systems through use of publicly shared design information. Open design involves the making of both free and open-source software (FOSS) as well as open-source hardware. The process is generally facilitated by the Internet and often performed without monetary compensation. The goals and philosophy are identical to that of the open-source movement, but are implemented for the development of physical products rather than software.[5] Open design is a form of co-creation, where the final product is designed by the users, rather than an external stakeholder such as a private company.</p>
+			</div>
     </section>
     <?php include 'partials/footernav.html';?>
     <footer class="mainFooter">
@@ -38,4 +26,3 @@
     </footer>
 </body>
 </html>
-
