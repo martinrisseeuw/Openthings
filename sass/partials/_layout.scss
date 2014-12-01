@@ -24,9 +24,6 @@ body{
 .mainContent li a{
 	color: $darkgrey;
 }
-.mainContent article img{
-	width: 100%;
-}
 .mainContent .projectHeader img, .mainContent .projectHeader div{
 	width: 100%;
 }
@@ -35,10 +32,13 @@ body{
 	background-color: $darkgrey;
 	color: white;
 }
+.projectHeader{
+	width: 100%;
+	text-align: left;
+}
 .projectHeader p{
 	max-width: 800px;
 }
-
 .projectDetails{
 	width: 50%;
 	padding: 2%;
@@ -55,10 +55,16 @@ body{
 	text-align: center;
 	margin: 0 2% 0 0;
 }
-
 .projectComments{
 	background-color: white;
+	text-align: left;
 	width: 50%;
 	margin-bottom: 2%;
-	padding: 2%;
+	padding: 4%;
+}
+
+.projectComments span{
+	font-size: 2em;
+	word-spacing: 2em;
+	margin-right: 0.2em;
 }

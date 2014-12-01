@@ -16,24 +16,20 @@
     <?php include 'partials/search.html';?>
     <section class="mainContent left">
         <ul>
-						<li class="left">
-                <article>
-                    <a href="project.php"><img src="public/images/shareable_energy.jpg" /></a>
-                    <header>
-                        <a href="project.php"><h1>Shareable energy blocks</h1></a>
-                        <a href="project.php"><p>A project for green shareable energy</p></a>
-                    </header>
-                </article>
-            </li>
-            <li class="left">
-                <article>
-                    <a href="project.php"><img src="public/images/project_thumbnail.jpg" /></a>
-                    <header>
-                        <a href="project.php"><h1 class="delta">Plywood desk</h1></a>
-                        <a href="project.php"><p>Easy to build plywood desk</p></a>
-                    </header>
-                </article>
-            </li>
+					<li class="left">
+						<article>
+							<figure class="effect-lily">
+								<img src="public/images/shareable_energy.jpg" alt="img12"/>
+								<figcaption>
+									<div>
+										<h2>Shareable enegry</h2>
+										<p>Lily likes to play with crayons and pencils</p>
+									</div>
+									<a href="project.php">View more</a>
+								</figcaption>			
+							</figure>
+						</article>
+					</li>
         </ul>
     </section>
     <nav class="footerNav left">

@@ -24,7 +24,7 @@
         <section class="projectDetails left">
 					<ul>
 						<li class="left">
-							<span class="icon-icon_loupe"></span>
+							<span class="icon-icon_text"></span>
 							<h5>Download</h5>
 							<h6>manual & files</h6>
 						</li>
@@ -34,7 +34,7 @@
 							<h6>maker</h6>
 						</li>
 						<li class="left">
-							<span class="icon-icon_loupe"></span>
+							<span class="icon-icon_vinyl"></span>
 							<h5>Project</h5>
 							<h6>difficulty</h6>
 						</li>
@@ -46,7 +46,7 @@
 					</ul>
         </section>
         <section class="projectComments left">
-            aaa
+            <span class="icon-icon_star"></span> <span class="icon-icon_star"></span> <span class="icon-icon_star"></span> <span class="icon-icon_star"></span> <span class="icon-icon_star"></span>
         </section>
     </section>
     <nav class="footerNav left">
