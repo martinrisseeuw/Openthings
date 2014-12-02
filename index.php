@@ -16,7 +16,7 @@
     <?php include 'partials/search.html';?>
     <section class="mainContent left">
         <ul>
-					<li class="left">
+					<li class="preview left">
 						<article>
 							<figure class="effect-lily">
 								<img src="public/images/shareable_energy.jpg" alt="img12"/>

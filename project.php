@@ -46,19 +46,48 @@
 					</ul>
         </section>
         <section class="projectComments left">
-					<div class="left">
-            <span class="icon-icon_star"></span> <span class="icon-icon_star"></span> <span class="icon-icon_star"></span> <span class="icon-icon_star"></span> <span class="icon-icon_star"></span>
-					</div>
-					<div class="right">
-						
-						<p><span class="icon-icon_down"></span>View comments</p>
-					</div>
+					<header class="left">
+						<div class="left">
+							<span class="icon-icon_star"></span> <span class="icon-icon_star"></span> <span class="icon-icon_star"></span> <span class="icon-icon_star"></span> <span class="icon-icon_star"></span>
+						</div>						
+						<div class="right">
+							<p class="viewcomments"><span class="icon-icon_down"></span>View comments</p>
+						</div>
+					</header>
+					<ul class="left">
+						<li>
+							<article class="comment">
+								<h1 class="gamma">What about the electronics</h1>
+								<p>Selling excess solar or wind energy back to the power company is not a new idea. But what if, instead of selling renewable energy back to companies who then sell it to our neighbors, we could sell the energy directly to our neighbors?</p>
+							</article>
+						</li>
+						<li>
+							<article class="comment">
+								<h1 class="gamma">What about the electronics</h1>
+								<p>Selling excess solar or wind energy back to the power company is not a new idea. But what if, instead of selling renewable energy back to companies who then sell it to our neighbors, we could sell the energy directly to our neighbors?</p>
+							</article>
+						</li>
+						<li>
+							<article class="comment">
+								<h1 class="gamma">What about the electronics</h1>
+								<p>Selling excess solar or wind energy back to the power company is not a new idea. But what if, instead of selling renewable energy back to companies who then sell it to our neighbors, we could sell the energy directly to our neighbors?</p>
+							</article>
+						</li>
+					</ul>
         </section>
+			
     </section>
     <?php include 'partials/footernav.html';?>
     <footer class="mainFooter">
         <p class="left">Webdesign made by <a href="#">Martinr.nl</a> feel free to download the designs <a href="#">here</a></p>
     </footer>
+	
+		<script>
+			$(".viewcomments").click(function(){
+				$(".projectComments ul").slideToggle();
+			});
+		</script>
+	
 </body>
 </html>
 

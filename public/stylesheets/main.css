@@ -436,7 +436,7 @@ figure.effect-lily:hover p {
 .left {
   float: left; }
 
-.projectComments, .mainContent, .mainContent .projectHeader div, .mainContent .projectDetails {
+.projectComments ul, .projectComments header, .projectComments, .mainContent, .mainContent .projectHeader div, .mainContent .projectDetails {
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box; }
@@ -444,14 +444,14 @@ figure.effect-lily:hover p {
 body {
   background-color: #edebeb; }
 
-.mainContent, .projectHeader, .mainContent .projectHeader img, .mainContent .projectHeader div {
+.projectComments ul, .mainContent, .projectHeader, .mainContent .projectHeader img, .mainContent .projectHeader div, .mainContent .projectComments li {
   width: 100%; }
 
 .projectPage .mainContent {
   padding: 0 2%;
   margin-bottom: 2em; }
 
-.mainContent li {
+.mainContent .preview {
   margin: 0 0 2% 2%;
   width: 22.5%; }
 
@@ -477,7 +477,7 @@ body {
   padding: 2%;
   background-color: rgba(44, 210, 180, 0.3);
   color: #333;
-  min-height: 180px; }
+  text-align: center; }
 
 .projectDetails li span {
   font-size: 3em; }
@@ -490,24 +490,37 @@ body {
   margin-bottom: 0; }
 
 .projectDetails li {
-  margin: 0 2% 0 0; }
+  margin: 0 2% 0 0;
+  width: 22.5%; }
+
+.projectDetails li:last-child {
+  margin: 0 0 0 0; }
 
 .projectComments {
+  width: 50%; }
+
+.projectComments header {
   background-color: white;
-  width: 50%;
-  margin-bottom: 2%;
-  padding: 4%;
-  min-height: 180px; }
+  width: 100%;
+  padding: 4%; }
 
 .projectComments div {
   width: 50%;
   text-align: center; }
 
+.projectComments ul {
+  padding: 2%;
+  background: white;
+  display: none; }
+
 .projectComments span {
   font-size: 2em;
-  word-spacing: 2em;
   margin-right: 0.2em;
   top: 0.25em; }
+
+.comment {
+  border-top: 1px solid #edebeb;
+  padding: 4% 0 0 0; }
 
 .standardPage .mainContent {
   padding: 2%; }
