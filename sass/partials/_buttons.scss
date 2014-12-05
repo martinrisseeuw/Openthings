@@ -3,10 +3,19 @@ button{
 	background-color: $brand-color;
 	cursor: pointer;
 	padding: $xsmall-margin-padding;
+	border-radius: 1px;
+  transition: opacity 0.3s ease-in-out;
 }
 .btn{
-	color: white;
+	color: white !important;
+	display: inline-block;
 	background-color: $brand-color;
 	cursor: pointer;
 	padding: $xsmall-margin-padding;
+	border-radius: 1px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+button:hover, .btn:hover{
+	opacity: 0.8;
 }

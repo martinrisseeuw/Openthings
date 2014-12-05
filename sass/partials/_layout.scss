@@ -1,22 +1,18 @@
-.projectComments ul, .projectComments header, .projectComments, .mainContent, .mainContent .projectHeader div, .mainContent .projectDetails{
+.projectVersions, .commentInput form, .commentInput, .projectComments ul, .projectComments header, .projectComments, .mainContent, .mainContent .projectHeader div, .mainContent .projectDetails, .postProject{
 	@include box-sizing(border-box);
 }
 body{
 	background-color: $lightgrey;
 }
-.projectComments ul,.mainContent, .projectHeader, .mainContent .projectHeader img, .mainContent .projectHeader div, .mainContent .projectComments li{
+.projectComments ul,.mainContent, .projectHeader, .mainContent .projectComments li, .commentInput, .commentInput input, .commentInput textarea, .commentInput form{
 	width: 100%;
 }
-.projectPage .mainContent{
-	padding: 0 2%;
-	margin-bottom: 2em;
+.mainContent .projectHeader img, .mainContent .projectHeader div{
+	width: 50%;
 }
 .mainContent .preview{
-	margin: 0 0 2% 2%;
+	margin: 2% 0 0 2%;
 	width: 22.5%;
-}
-.mainContent li article{
-	background-color: white;
 }
 .mainContent li header{
 	padding: $tiny-margin-padding $small-margin-padding ;
@@ -25,19 +21,36 @@ body{
 	color: $darkgrey;
 }
 .mainContent .projectHeader div{
-	padding: 2%;
+	padding: 4%;
 	background-color: $darkgrey;
 	color: white;
+}
+.landingPage .mainContent{
+	padding-bottom: 2%;
+}
+.projectHeader{
+	background-color: $darkgrey;
 }
 .projectHeader p{
 	max-width: 800px;
 }
+.projectVersions{
+	width: 50%;
+	padding: 4%;
+	background-color: rgba(white, .3);
+	color: #333;
+}
+.projectVersions li{
+	border-top: 1px solid rgba(255,255,255, 0.5);
+	padding: 4% 0;
+}
 .projectDetails{
 	width: 50%;
-	padding: 2%;
-	background-color: rgba($brand-color, .3);
+	padding: 4%;
+	background-color: rgba(white, .6);
 	color: #333;
 	text-align: center;
+	border-bottom: #ddd solid 1px;
 }
 .projectDetails li span{
 	font-size: 3em;	
@@ -58,35 +71,65 @@ body{
 }
 .projectComments{
 	width: 50%;
+	padding: 4%;
+	background-color: white;
 }
 .projectComments header{
 	background-color: white;
 	width: 100%;
-	padding: 4%;
 }
 .projectComments div{
 	width: 50%;
-	text-align: center;
 }
 .projectComments ul{
-	padding: 2%;
+	padding: 4% 0;
 	background: white;
 	display: none;
 }
+.viewcomments{
+	text-align: right;
+	cursor: pointer;
+}
 .projectComments span{
-	font-size: 2em;
-	margin-right: 0.2em;
-	top: 0.25em;
+	margin-right: 0.1em;
 }
 .comment{
 	border-top: 1px solid $lightgrey;
 	padding: 4% 0 0 0;
 }
-
+.commentInput{
+	background: white;
+}
+.commentInput form{
+	border-top: 1px solid $lightgrey;
+	padding-top: 4%;
+}
+.commentInput input, .commentInput textarea{
+	margin-bottom: 1em;
+	max-width: 100%;
+	box-sizing: border-box;
+}
 .standardPage .mainContent{
 	padding: 2%;
 }
 .standardPage .mainContent p{
 	max-width: 40em;
 	font-size: 1.5em;
+}
+.postProject{
+	padding: 4%;
+	width: 100%;
+	background: white;
+	display: none;
+}
+.postProject form{
+	max-width: 600px;
+	width: 100%;
+}
+
+.postProject input, .postProject textarea, .postProject select{
+	max-width: 100%;
+	width: 100%;
+	margin-bottom: 1em;
+	@include box-sizing(border-box);
 }

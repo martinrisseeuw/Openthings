@@ -11,9 +11,10 @@
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 </head>
-<body>
+<body class="landingPage">
 		<?php include 'partials/navigation.html';?>
     <?php include 'partials/search.html';?>
+		<?php include 'partials/addproject.html';?>
     <section class="mainContent left">
         <ul>
 					<li class="preview left">
@@ -22,8 +23,78 @@
 								<img src="public/images/shareable_energy.jpg" alt="img12"/>
 								<figcaption>
 									<div>
-										<h2>Shareable enegry</h2>
-										<p>Share your green energy with others</p>
+										<h2 class="left">Shareable enegry</h2>
+										<p class="left">Selling excess solar or wind energy back to the power company is not a new idea. But what if...</p>
+									</div>
+									<a href="project.php">View more</a>
+								</figcaption>			
+							</figure>
+						</article>
+					</li>
+					<li class="preview left">
+						<article>
+							<figure class="effect-lily">
+								<img src="public/images/project_thumbnail.jpg" alt="img12"/>
+								<figcaption>
+									<div>
+										<h2 class="left">Shareable enegry</h2>
+										<p class="left">Selling excess solar or wind energy back to the power company is not a new idea. But what if...</p>
+									</div>
+									<a href="project.php">View more</a>
+								</figcaption>			
+							</figure>
+						</article>
+					</li>
+					<li class="preview left">
+						<article>
+							<figure class="effect-lily">
+								<img src="public/images/shareable_energy.jpg" alt="img12"/>
+								<figcaption>
+									<div>
+										<h2 class="left">Shareable enegry</h2>
+										<p class="left">Selling excess solar or wind energy back to the power company is not a new idea. But what if...</p>
+									</div>
+									<a href="project.php">View more</a>
+								</figcaption>			
+							</figure>
+						</article>
+					</li>
+					<li class="preview left">
+						<article>
+							<figure class="effect-lily">
+								<img src="public/images/project_thumbnail.jpg" alt="img12"/>
+								<figcaption>
+									<div>
+										<h2 class="left">Shareable enegry</h2>
+										<p class="left">Selling excess solar or wind energy back to the power company is not a new idea. But what if...</p>
+									</div>
+									<a href="project.php">View more</a>
+								</figcaption>			
+							</figure>
+						</article>
+					</li>
+					<li class="preview left">
+						<article>
+							<figure class="effect-lily">
+								<img src="public/images/shareable_energy.jpg" alt="img12"/>
+								<figcaption>
+									<div>
+										<h2 class="left">Shareable enegry</h2>
+										<p class="left">Selling excess solar or wind energy back to the power company is not a new idea. But what if...</p>
+									</div>
+									<a href="project.php">View more</a>
+								</figcaption>			
+							</figure>
+						</article>
+					</li>
+					<li class="preview left">
+						<article>
+							<figure class="effect-lily">
+								<img src="public/images/project_thumbnail.jpg" alt="img12"/>
+								<figcaption>
+									<div>
+										<h2 class="left">Shareable enegry</h2>
+										<p class="left">Selling excess solar or wind energy back to the power company is not a new idea. But what if...</p>
 									</div>
 									<a href="project.php">View more</a>
 								</figcaption>			
@@ -36,6 +107,11 @@
     <footer class="mainFooter">
         <p class="left">Webdesign made by <a href="#">Martinr.nl</a> feel free to download the designs <a href="#">here</a></p>
     </footer>
+		<script>
+			$(".shareDesignBtn").click(function(){
+				$(".postProject").slideToggle();
+			});
+		</script>
 </body>
 </html>
 

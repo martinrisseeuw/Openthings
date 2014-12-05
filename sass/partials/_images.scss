@@ -1,11 +1,9 @@
-
-
 /* Common style */
 .mainContent figure {
 	position: relative;
 	float: left;
 	overflow: hidden;
-	background: $brand-color;
+	background: #333;
 	text-align: center;
 	cursor: pointer;
 }
@@ -65,7 +63,7 @@ figure.effect-lily img {
 	max-width: none;
 	width: -webkit-calc(100% + 50px);
 	width: calc(100% + 50px);
-	opacity: 0.7;
+	opacity: 0.8;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: translate3d(-40px,0, 0);
@@ -88,6 +86,7 @@ figure.effect-lily h2,
 figure.effect-lily p {
 	-webkit-transform: translate3d(0,40px,0);
 	transform: translate3d(0,40px,0);
+	padding: 0 5px;
 }
 
 figure.effect-lily h2 {
@@ -97,16 +96,20 @@ figure.effect-lily h2 {
 }
 
 figure.effect-lily p {
-	color: rgba(255,255,255,0.9);
+	color: rgba(255,255,255,1);
+	font-size: 1em;
 	opacity: 0;
 	-webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
 	transition: opacity 0.2s, transform 0.35s;
-	background: rgba($brand-color, 0.7);
+	background: rgba($brand-color, 0.8);
 }
 
 figure.effect-lily:hover img,
 figure.effect-lily:hover p {
 	opacity: 1;
+}
+figure.effect-lily:hover h2{
+	background: rgba(0,0,0,0.8);
 }
 
 figure.effect-lily:hover img,

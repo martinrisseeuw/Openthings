@@ -10,13 +10,14 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video, button, input, textarea {
+time, mark, audio, video, button, input, textarea, select {
   margin: 0;
   padding: 0;
   border: 0;
   font: inherit;
   vertical-align: baseline;
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+  -webkit-appearance: none; }
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -92,7 +93,7 @@ h6, .zeta {
 
 p,
 blockquote {
-  font-size: 0.875em;
+  font-size: 1.3125em;
   margin: 0 0 1.5714285714285714em;
   line-height: 1.5714285714285714;
   -webkit-hyphens: auto;
@@ -109,27 +110,41 @@ li {
 a {
   text-decoration: none;
   opacity: 1;
-  color: #2cd2b4; }
-
-a:hover {
-  opacity: 0.8;
+  color: #2cd2b4;
   -webkit-transition: opacity 0.3s ease-in-out;
           transition: opacity 0.3s ease-in-out; }
 
-input {
+a:hover {
+  opacity: 0.8; }
+
+select, input, textarea {
+  padding: 1em;
+  border-radius: 1px; }
+
+select, input, textarea {
   border: 1px solid #edebeb; }
 
 button {
   color: white;
   background-color: #2cd2b4;
   cursor: pointer;
-  padding: 0.625em; }
+  padding: 0.625em;
+  border-radius: 1px;
+  -webkit-transition: opacity 0.3s ease-in-out;
+          transition: opacity 0.3s ease-in-out; }
 
 .btn {
-  color: white;
+  color: white !important;
+  display: inline-block;
   background-color: #2cd2b4;
   cursor: pointer;
-  padding: 0.625em; }
+  padding: 0.625em;
+  border-radius: 1px;
+  -webkit-transition: opacity 0.3s ease-in-out;
+          transition: opacity 0.3s ease-in-out; }
+
+button:hover, .btn:hover {
+  opacity: 0.8; }
 
 @font-face {
   font-family: 'icons_martin';
@@ -150,6 +165,24 @@ button {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
+
+.icon-icons_difficulty0:before {
+  content: "\e63a"; }
+
+.icon-icons_difficulty1:before {
+  content: "\e63b"; }
+
+.icon-icons_difficulty2:before {
+  content: "\e63c"; }
+
+.icon-icons_difficulty3:before {
+  content: "\e63d"; }
+
+.icon-icons_difficulty4:before {
+  content: "\e63e"; }
+
+.icon-icons_difficulty5:before {
+  content: "\e63f"; }
 
 .icon-icon_apple:before {
   content: "\e600"; }
@@ -330,7 +363,7 @@ button {
   position: relative;
   float: left;
   overflow: hidden;
-  background: #2cd2b4;
+  background: #333;
   text-align: center;
   cursor: pointer; }
 
@@ -381,7 +414,7 @@ button {
 figure.effect-lily img {
   max-width: none;
   width: calc(100% + 50px);
-  opacity: 0.7;
+  opacity: 0.8;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: translate3d(-40px, 0, 0);
@@ -400,7 +433,8 @@ figure.effect-lily figcaption > div {
 figure.effect-lily h2,
 figure.effect-lily p {
   -webkit-transform: translate3d(0, 40px, 0);
-  transform: translate3d(0, 40px, 0); }
+  transform: translate3d(0, 40px, 0);
+  padding: 0 5px; }
 
 figure.effect-lily h2 {
   -webkit-transition: -webkit-transform 0.35s;
@@ -408,15 +442,19 @@ figure.effect-lily h2 {
   font-size: 1.125em; }
 
 figure.effect-lily p {
-  color: rgba(255, 255, 255, 0.9);
+  color: white;
+  font-size: 1em;
   opacity: 0;
   -webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
   transition: opacity 0.2s, transform 0.35s;
-  background: rgba(44, 210, 180, 0.7); }
+  background: rgba(44, 210, 180, 0.8); }
 
 figure.effect-lily:hover img,
 figure.effect-lily:hover p {
   opacity: 1; }
+
+figure.effect-lily:hover h2 {
+  background: rgba(0, 0, 0, 0.8); }
 
 figure.effect-lily:hover img,
 figure.effect-lily:hover h2,
@@ -436,7 +474,7 @@ figure.effect-lily:hover p {
 .left {
   float: left; }
 
-.projectComments ul, .projectComments header, .projectComments, .mainContent, .mainContent .projectHeader div, .mainContent .projectDetails {
+.projectVersions, .commentInput form, .commentInput, .projectComments ul, .projectComments header, .projectComments, .mainContent, .mainContent .projectHeader div, .mainContent .projectDetails, .postProject {
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box; }
@@ -444,19 +482,15 @@ figure.effect-lily:hover p {
 body {
   background-color: #edebeb; }
 
-.projectComments ul, .mainContent, .projectHeader, .mainContent .projectHeader img, .mainContent .projectHeader div, .mainContent .projectComments li {
+.projectComments ul, .mainContent, .projectHeader, .mainContent .projectComments li, .commentInput, .commentInput input, .commentInput textarea, .commentInput form {
   width: 100%; }
 
-.projectPage .mainContent {
-  padding: 0 2%;
-  margin-bottom: 2em; }
+.mainContent .projectHeader img, .mainContent .projectHeader div {
+  width: 50%; }
 
 .mainContent .preview {
-  margin: 0 0 2% 2%;
+  margin: 2% 0 0 2%;
   width: 22.5%; }
-
-.mainContent li article {
-  background-color: white; }
 
 .mainContent li header {
   padding: 0.3125em 0.9375em; }
@@ -465,19 +499,36 @@ body {
   color: #323232; }
 
 .mainContent .projectHeader div {
-  padding: 2%;
+  padding: 4%;
   background-color: #323232;
   color: white; }
+
+.landingPage .mainContent {
+  padding-bottom: 2%; }
+
+.projectHeader {
+  background-color: #323232; }
 
 .projectHeader p {
   max-width: 800px; }
 
+.projectVersions {
+  width: 50%;
+  padding: 4%;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #333; }
+
+.projectVersions li {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 4% 0; }
+
 .projectDetails {
   width: 50%;
-  padding: 2%;
-  background-color: rgba(44, 210, 180, 0.3);
+  padding: 4%;
+  background-color: rgba(255, 255, 255, 0.6);
   color: #333;
-  text-align: center; }
+  text-align: center;
+  border-bottom: #ddd solid 1px; }
 
 .projectDetails li span {
   font-size: 3em; }
@@ -497,30 +548,45 @@ body {
   margin: 0 0 0 0; }
 
 .projectComments {
-  width: 50%; }
+  width: 50%;
+  padding: 4%;
+  background-color: white; }
 
 .projectComments header {
   background-color: white;
-  width: 100%;
-  padding: 4%; }
+  width: 100%; }
 
 .projectComments div {
-  width: 50%;
-  text-align: center; }
+  width: 50%; }
 
 .projectComments ul {
-  padding: 2%;
+  padding: 4% 0;
   background: white;
   display: none; }
 
+.viewcomments {
+  text-align: right;
+  cursor: pointer; }
+
 .projectComments span {
-  font-size: 2em;
-  margin-right: 0.2em;
-  top: 0.25em; }
+  margin-right: 0.1em; }
 
 .comment {
   border-top: 1px solid #edebeb;
   padding: 4% 0 0 0; }
+
+.commentInput {
+  background: white; }
+
+.commentInput form {
+  border-top: 1px solid #edebeb;
+  padding-top: 4%; }
+
+.commentInput input, .commentInput textarea {
+  margin-bottom: 1em;
+  max-width: 100%;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box; }
 
 .standardPage .mainContent {
   padding: 2%; }
@@ -528,6 +594,24 @@ body {
 .standardPage .mainContent p {
   max-width: 40em;
   font-size: 1.5em; }
+
+.postProject {
+  padding: 4%;
+  width: 100%;
+  background: white;
+  display: none; }
+
+.postProject form {
+  max-width: 600px;
+  width: 100%; }
+
+.postProject input, .postProject textarea, .postProject select {
+  max-width: 100%;
+  width: 100%;
+  margin-bottom: 1em;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box; }
 
 .logo, .shareDesignBtn, .mainNavigation li, .mainNavigation li a {
   height: 100%; }
@@ -538,14 +622,14 @@ body {
   font-size: 1.3125em; }
 
 .logo {
-  background: #323232 url(../images/logo.svg) no-repeat 0.9em center;
-  padding: 0 3em;
+  background: #323232;
+  padding: 0 1.4em;
   line-height: 3.6em;
   color: white; }
 
 .shareDesignBtn {
   background-color: #2cd2b4;
-  padding: 0 1.875em;
+  padding: 0 1.4em;
   line-height: 3.6em;
   color: white; }
 
@@ -554,7 +638,7 @@ body {
 
 .mainNavigation li a {
   color: #666666;
-  padding: 0 2em;
+  padding: 0 1.4em;
   line-height: 3.6em;
   display: inline-block; }
 
@@ -571,7 +655,7 @@ body {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0.9375em 1.875em;
-  margin-bottom: 1.875em; }
+  border-bottom: 1px solid #ddd; }
 
 .mainSearch li {
   display: inline;
@@ -597,12 +681,14 @@ body {
 .mainFooter p {
   font-size: 0.875em;
   color: #666666;
-  margin-top: 1em;
-  line-height: 3em; }
+  margin-top: 0.5em;
+  line-height: 3em;
+  margin-bottom: 0; }
 
 .footerNav {
   width: 100%;
-  background-color: white; }
+  background-color: white;
+  border-top: 1px solid #ddd; }
 
 .footerNav section {
   width: 21%;
