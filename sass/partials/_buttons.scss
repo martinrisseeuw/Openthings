@@ -15,7 +15,10 @@ button{
 	border-radius: 1px;
   transition: opacity 0.3s ease-in-out;
 }
-
+.updateProjectBtn{
+	position: relative;
+	top: -0.875em;
+}
 button:hover, .btn:hover{
 	opacity: 0.8;
 }

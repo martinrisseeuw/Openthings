@@ -40,7 +40,7 @@
 							</a>
 						</li>
 						<li class="left">
-							<span class="icon-icons_difficulty2"></span>
+							<span class="icon-icons_difficulty4"></span>
 							<h5>Project</h5>
 							<h6>difficulty</h6>
 						</li>
@@ -107,8 +107,8 @@
 					</section>
         </section>
 				<section class="projectVersions left">
-					<h1 class="gamma">Project versions</h1>
-					<ul class="projectVersionsList">
+					<h1 class="gamma left">Project versions</h1> <button class="right updateProjectBtn"><span class="icon-icon_save"></span> Upload your version</button>
+					<ul class="projectVersionsList left">
 						<li>
 							<article>
 								<h1 class="epsilon">10 file(s) updated by martinrisseeuw</h1>

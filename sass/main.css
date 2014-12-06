@@ -67,8 +67,8 @@ h2, .beta {
 /* line 37, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/typography */
 h3, .gamma {
   font-size: 1.3125em;
-  line-height: 1.04762;
-  margin-bottom: 1.04762em; }
+  margin: 0 0 1.57143em;
+  line-height: 1.57143; }
 
 /* line 42, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/typography */
 h4, .delta {
@@ -142,7 +142,12 @@ button {
   border-radius: 1px;
   transition: opacity 0.3s ease-in-out; }
 
-/* line 19, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/buttons */
+/* line 18, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/buttons */
+.updateProjectBtn {
+  position: relative;
+  top: -0.875em; }
+
+/* line 22, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/buttons */
 button:hover, .btn:hover {
   opacity: 0.8; }
 
@@ -662,61 +667,60 @@ body {
 
 /* line 84, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
 .projectComments ul {
-  padding: 4% 0;
   background: white;
   display: none; }
 
-/* line 89, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
+/* line 88, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
 .viewcomments {
   text-align: right;
   cursor: pointer; }
 
-/* line 93, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
+/* line 92, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
 .projectComments span {
   margin-right: 0.1em; }
 
-/* line 96, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
+/* line 95, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
 .comment {
   border-top: 1px solid #edebeb;
   padding: 4% 0 0 0; }
 
-/* line 100, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
+/* line 99, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
 .commentInput {
   background: white; }
 
-/* line 103, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
+/* line 102, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
 .commentInput form {
   border-top: 1px solid #edebeb;
   padding-top: 4%; }
 
-/* line 107, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
+/* line 106, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
 .commentInput input, .commentInput textarea {
   margin-bottom: 1em;
   max-width: 100%;
   box-sizing: border-box; }
 
-/* line 112, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
+/* line 111, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
 .standardPage .mainContent {
   padding: 2%; }
 
-/* line 115, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
+/* line 114, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
 .standardPage .mainContent p {
   max-width: 40em;
   font-size: 1.5em; }
 
-/* line 119, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
+/* line 118, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
 .postProject {
   padding: 4%;
   width: 100%;
   background: white;
   display: none; }
 
-/* line 125, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
+/* line 124, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
 .postProject form {
   max-width: 600px;
   width: 100%; }
 
-/* line 130, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
+/* line 129, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
 .postProject input, .postProject textarea, .postProject select {
   max-width: 100%;
   width: 100%;
