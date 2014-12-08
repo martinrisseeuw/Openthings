@@ -118,11 +118,10 @@ a:hover {
   opacity: 0.8; }
 
 select, input, textarea {
+  border: 1px solid #edebeb;
   padding: 1em;
-  border-radius: 1px; }
-
-select, input, textarea {
-  border: 1px solid #edebeb; }
+  border-radius: 1px;
+  background: none; }
 
 button {
   color: white;
@@ -145,7 +144,7 @@ button {
 
 .updateProjectBtn {
   position: relative;
-  top: -0.875em; }
+  top: -0.3em; }
 
 button:hover, .btn:hover {
   opacity: 0.8; }
@@ -590,6 +589,25 @@ body {
   max-width: 100%;
   -moz-box-sizing: border-box;
        box-sizing: border-box; }
+
+.projectUpdate {
+  padding: 4%;
+  width: 50%;
+  background: rgba(44, 210, 180, 0.15);
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.projectUpdate form {
+  width: 100%; }
+
+.projectUpdate input, .projectUpdate textarea {
+  margin-bottom: 1em;
+  max-width: 100%;
+  width: 100%;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  border-color: #666666; }
 
 .standardPage .mainContent {
   padding: 2%; }

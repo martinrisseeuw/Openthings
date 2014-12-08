@@ -1,7 +1,6 @@
 select, input, textarea{
+	border: 1px solid $lightgrey;
 	padding: 1em;
 	border-radius: 1px;
-}
-select, input, textarea{
-	border: 1px solid $lightgrey;
+	background: none;
 }

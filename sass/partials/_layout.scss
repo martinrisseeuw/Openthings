@@ -108,6 +108,25 @@ body{
 	max-width: 100%;
 	box-sizing: border-box;
 }
+
+.projectUpdate{
+	padding: 4%;
+	width: 50%;
+	background: rgba($brand-color, 0.15);
+	@include box-sizing(border-box);
+}
+
+.projectUpdate form{
+	width: 100%;
+}
+.projectUpdate input, .projectUpdate textarea{
+	margin-bottom: 1em;
+	max-width: 100%;
+	width: 100%;
+	box-sizing: border-box;
+	border-color: $mediumgrey	;
+}
+
 .standardPage .mainContent{
 	padding: 2%;
 }

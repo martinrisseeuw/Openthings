@@ -116,12 +116,10 @@ a:hover {
 
 /* line 1, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/forms */
 select, input, textarea {
+  border: 1px solid #edebeb;
   padding: 1em;
-  border-radius: 1px; }
-
-/* line 5, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/forms */
-select, input, textarea {
-  border: 1px solid #edebeb; }
+  border-radius: 1px;
+  background: none; }
 
 /* line 1, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/buttons */
 button {
@@ -145,7 +143,7 @@ button {
 /* line 18, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/buttons */
 .updateProjectBtn {
   position: relative;
-  top: -0.875em; }
+  top: -0.3em; }
 
 /* line 22, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/buttons */
 button:hover, .btn:hover {
@@ -699,28 +697,50 @@ body {
   max-width: 100%;
   box-sizing: border-box; }
 
-/* line 111, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
+/* line 112, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
+.projectUpdate {
+  padding: 4%;
+  width: 50%;
+  background: rgba(44, 210, 180, 0.15);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 119, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
+.projectUpdate form {
+  width: 100%; }
+
+/* line 122, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
+.projectUpdate input, .projectUpdate textarea {
+  margin-bottom: 1em;
+  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  border-color: #666666; }
+
+/* line 130, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
 .standardPage .mainContent {
   padding: 2%; }
 
-/* line 114, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
+/* line 133, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
 .standardPage .mainContent p {
   max-width: 40em;
   font-size: 1.5em; }
 
-/* line 118, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
+/* line 137, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
 .postProject {
   padding: 4%;
   width: 100%;
   background: white;
   display: none; }
 
-/* line 124, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
+/* line 143, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
 .postProject form {
   max-width: 600px;
   width: 100%; }
 
-/* line 129, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
+/* line 148, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
 .postProject input, .postProject textarea, .postProject select {
   max-width: 100%;
   width: 100%;
