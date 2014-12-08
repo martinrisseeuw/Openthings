@@ -740,7 +740,7 @@ body {
   max-width: 600px;
   width: 100%; }
 
-/* line 148, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
+/* line 147, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
 .postProject input, .postProject textarea, .postProject select {
   max-width: 100%;
   width: 100%;
@@ -749,6 +749,54 @@ body {
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box; }
+
+/* line 154, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
+.rating span {
+  padding: 0 0.1em;
+  cursor: pointer; }
+
+/* line 158, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
+.rating span:hover {
+  color: #2cd2b4; }
+
+/* line 161, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
+.isRated1 span:nth-child(-n+1), .rated1 span:nth-child(-n+1) {
+  color: #2cd2b4; }
+
+/* line 164, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
+.isRated2 span:nth-child(-n+2), .rated2 span:nth-child(-n+2) {
+  color: #2cd2b4; }
+
+/* line 167, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
+.isRated3 span:nth-child(-n+3), .rated3 span:nth-child(-n+3) {
+  color: #2cd2b4; }
+
+/* line 170, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
+.isRated4 span:nth-child(-n+4), .rated4 span:nth-child(-n+4) {
+  color: #2cd2b4; }
+
+/* line 173, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
+.isRated5 span:nth-child(-n+5), .rated5 span:nth-child(-n+5) {
+  color: #2cd2b4; }
+
+/* line 177, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
+#ajax-loader {
+  position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+/* line 186, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
+#ajax-loader > div {
+  display: table-cell;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  text-align: center;
+  background-color: #000000;
+  opacity: 0.65; }
 
 /* line 1, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/menus */
 .logo, .shareDesignBtn, .mainNavigation li, .mainNavigation li a {

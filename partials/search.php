@@ -3,9 +3,4 @@
 				<input placeholder="Search: description, tag, type of product">
 				<button type="submit">Search <span class="icon-icon_loupe"></span></button>
 		</form>
-<!--
-		<ul>
-				<li>Expanded search <span class="icon-icon_down"></span></li>
-		</ul>
--->
 </section>

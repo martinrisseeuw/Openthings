@@ -1,19 +1,4 @@
-<!DOCTYPE html>
-<html lang="en-US" class="white">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="project description" />
-
-    <title>Basic HTML start template</title>
-    <link rel="icon" href="public/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="public/stylesheets/main.css" />
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-</head>
-<body class="projectPage">
-    <?php include 'partials/navigation.html';?>
-    <?php include 'partials/search.html';?>
-		<?php include 'partials/addproject.html';?>
+<?php include 'partials/head.php';?>
     <section class="mainContent left">
         <header class="projectHeader left">
             <img class="left" src="public/images/partworks.jpg" />
@@ -54,7 +39,7 @@
         <section class="projectComments right">
 					<header class="left">
 						<div class="rating left">
-							<p>Rate tutorial: <span class="icon-icon_star"></span> <span class="icon-icon_star"></span> <span class="icon-icon_star"></span> <span class="icon-icon_star"></span> <span class="icon-icon_star"></span></p>
+							<p>Rate tutorial: <span class="icon-icon_star rating1"></span><span class="icon-icon_star rating2"></span><span class="icon-icon_star rating3"></span><span class="icon-icon_star rating4"></span><span class="icon-icon_star rating5"></span></p>
 						</div>						
 						<div class="right">
 							<p class="viewcomments"><span class="icon-icon_down"></span>View comments</p>
@@ -108,7 +93,7 @@
         </section>		
 			
     </section>
-    <?php include 'partials/footernav.html';?>
+    <?php include 'partials/footernav.php';?>
     <footer class="mainFooter">
         <p class="left">Webdesign made by <a href="#">Martinr.nl</a> feel free to download the designs <a href="#">here</a></p>
     </footer>
@@ -119,6 +104,45 @@
 			});
 			$(".shareDesignBtn").click(function(){
 				$(".postProject").slideToggle();
+			});				
+			$('.rating1').hover(function() {
+				$('.rating').toggleClass('rated1'); // add class when mouseover happen
+			});		
+			$('.rating2').hover(function() {
+				$('.rating').toggleClass('rated2'); // add class when mouseover happen
+			});	
+			$('.rating3').hover(function() {
+				$('.rating').toggleClass('rated3'); // add class when mouseover happen
+			});	
+			$('.rating4').hover(function() {
+				$('.rating').toggleClass('rated4'); // add class when mouseover happen
+			});
+			$('.rating5').hover(function() {
+				$('.rating').toggleClass('rated5'); // add class when mouseover happen
+			});
+
+			$(".rating1").click(function(){
+				$(".rating").addClass("isRated1");
+				$(".rating").removeClass("isRated2 isRated3 isRated4 isRated5");
+				
+			});
+			$(".rating2").click(function(){
+				$(".rating").addClass("isRated2");
+				$(".rating").removeClass("isRated3 isRated4 isRated5");
+			});
+			$(".rating3").click(function(){
+				$(".rating").addClass("isRated3");
+				$(".rating").removeClass("isRated4 isRated5");
+			});
+			$(".rating4").click(function(){
+				$(".rating").addClass("isRated4");
+				$(".rating").removeClass("isRated5");
+			});
+			$(".rating5").click(function(){
+				$(".rating").addClass("isRated5");
+			});
+			$(".mainNavigation li").click(function(){
+				$(this).addClass("current");
 			});
 		</script>
 	

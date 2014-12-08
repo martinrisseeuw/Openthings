@@ -144,10 +144,51 @@ body{
 	max-width: 600px;
 	width: 100%;
 }
-
 .postProject input, .postProject textarea, .postProject select{
 	max-width: 100%;
 	width: 100%;
 	margin-bottom: 1em;
 	@include box-sizing(border-box);
+}
+
+.rating span{
+	padding: 0 0.1em;
+	cursor: pointer;
+}
+.rating span:hover{
+	color: $brand-color;
+}
+.isRated1 span:nth-child(-n+1), .rated1 span:nth-child(-n+1){
+	color: $brand-color;
+}
+.isRated2 span:nth-child(-n+2), .rated2 span:nth-child(-n+2){
+	color: $brand-color;
+}
+.isRated3 span:nth-child(-n+3), .rated3 span:nth-child(-n+3){
+	color: $brand-color;
+}
+.isRated4 span:nth-child(-n+4), .rated4 span:nth-child(-n+4){
+	color: $brand-color;
+}
+.isRated5 span:nth-child(-n+5), .rated5 span:nth-child(-n+5){
+	color: $brand-color;
+}
+
+#ajax-loader {
+    position: fixed;
+    display: table;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#ajax-loader > div {
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #000000;
+    opacity: 0.65;
 }
