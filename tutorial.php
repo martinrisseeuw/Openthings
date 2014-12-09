@@ -42,7 +42,7 @@
 							<p>Rate tutorial: <span class="icon-icon_star rating1"></span><span class="icon-icon_star rating2"></span><span class="icon-icon_star rating3"></span><span class="icon-icon_star rating4"></span><span class="icon-icon_star rating5"></span></p>
 						</div>						
 						<div class="right">
-							<p class="viewcomments"><span class="icon-icon_down"></span>View comments</p>
+							<p class="viewcomments" onclick="ShowComments();"><span class="icon-icon_down"></span>View comments</p>
 						</div>
 					</header>
 					<ul class="left">
@@ -91,61 +91,5 @@
 						</form>
 					</section>
         </section>		
-			
     </section>
-    <?php include 'partials/footernav.php';?>
-    <footer class="mainFooter">
-        <p class="left">Webdesign made by <a href="#">Martinr.nl</a> feel free to download the designs <a href="#">here</a></p>
-    </footer>
-	
-		<script>
-			$(".viewcomments").click(function(){
-				$(".projectComments ul").slideToggle();
-			});
-			$(".shareDesignBtn").click(function(){
-				$(".postProject").slideToggle();
-			});				
-			$('.rating1').hover(function() {
-				$('.rating').toggleClass('rated1'); // add class when mouseover happen
-			});		
-			$('.rating2').hover(function() {
-				$('.rating').toggleClass('rated2'); // add class when mouseover happen
-			});	
-			$('.rating3').hover(function() {
-				$('.rating').toggleClass('rated3'); // add class when mouseover happen
-			});	
-			$('.rating4').hover(function() {
-				$('.rating').toggleClass('rated4'); // add class when mouseover happen
-			});
-			$('.rating5').hover(function() {
-				$('.rating').toggleClass('rated5'); // add class when mouseover happen
-			});
-
-			$(".rating1").click(function(){
-				$(".rating").addClass("isRated1");
-				$(".rating").removeClass("isRated2 isRated3 isRated4 isRated5");
-				
-			});
-			$(".rating2").click(function(){
-				$(".rating").addClass("isRated2");
-				$(".rating").removeClass("isRated3 isRated4 isRated5");
-			});
-			$(".rating3").click(function(){
-				$(".rating").addClass("isRated3");
-				$(".rating").removeClass("isRated4 isRated5");
-			});
-			$(".rating4").click(function(){
-				$(".rating").addClass("isRated4");
-				$(".rating").removeClass("isRated5");
-			});
-			$(".rating5").click(function(){
-				$(".rating").addClass("isRated5");
-			});
-			$(".mainNavigation li").click(function(){
-				$(this).addClass("current");
-			});
-		</script>
-	
-</body>
-</html>
-
+<?php include 'partials/footer.php';?>

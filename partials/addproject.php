@@ -1,4 +1,5 @@
 <section class="postProject left">
+	<span class="icon-icon_plus close-icon"></span>
 	<form class="left">
 		<h1>Add project</h1>
 		<p>Add your project to this great domain and begin developing together</p>

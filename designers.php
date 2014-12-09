@@ -4,11 +4,10 @@
 			<li class="preview left">
 				<article>
 					<figure class="effect-lily">
-						<img src="public/images/partworks.jpg" alt="img12"/>
+						<img src="public/images/martin_privacy_16-9.jpg" alt="img12"/>
 						<figcaption>
 							<div>
-								<h2 class="left">Partworks</h2>
-								<p class="left">This is a tutorial for using PartWorks to prepare a file for the ShopBot</p>
+								<h2 class="left">Martin Risseeuw</h2>
 							</div>
 							<a href="tutorial.php">View more</a>
 						</figcaption>			

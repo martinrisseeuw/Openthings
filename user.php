@@ -59,9 +59,4 @@
 				</section>
 			
     </section>
-    <?php include 'partials/footernav.php';?>
-    <footer class="mainFooter">
-        <p class="left">Webdesign made by <a href="#">Martinr.nl</a> feel free to download the designs <a href="#">here</a></p>
-    </footer>	
-</body>
-</html>
+    <?php include 'partials/footer.php';?>

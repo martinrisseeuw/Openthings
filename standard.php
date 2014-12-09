@@ -11,9 +11,4 @@
 				<p>Open Design Now is a production of Premsela Netherlands Institute for Design and Fashion, Waag Society and Creative Commons Netherlands in association with BIS Publishers and will appear in bookshops in May.</p>
 			</div>
     </section>
-    <?php include 'partials/footernav.php';?>
-    <footer class="mainFooter">
-        <p class="left">Webdesign made by <a href="#">Martinr.nl</a> feel free to download the designs <a href="#">here</a></p>
-    </footer>
-</body>
-</html>
+<?php include 'partials/footer.php';?>
