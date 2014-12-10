@@ -10,6 +10,6 @@
     <link rel="stylesheet" type="text/css" href="public/stylesheets/main.css" />
 </head>
 <body>
-	<?php include 'partials/navigation.php';?>
-	<?php include 'partials/search.php';?>
-	<?php include 'partials/addproject.php';?>
+	<?php include 'modules/navigation.php';?>
+	<?php include 'modules/search.php';?>
+	<?php include 'modules/addproject.php';?>

@@ -7,13 +7,13 @@
 							<p>Martin Risseeuw is an ambitious designer based in Amsterdam. After finishing his studies in interaction design, he started a bachelor programme of Interactive/Media/Design at the Royal Academy of Art in The Hague. He works as interaction designer for Waag Society. During his studies Martin developed a big interest in Social Design and interaction design. Martin’s view on the world is how to improve interactions, products and even society.</p>
             </div>
         </header>
-				<section class="projectDetails left">
+				<section class="userDetails left">
 					<ul>
 						<li class="left">
 							<a href="#">
-								<span class="icon-icon_text"></span>
-								<h5>Download</h5>
-								<h6>manual & files</h6>
+								<span class="icon-icon_world"></span>
+								<h5>Personal website</h5>
+								<h6>visit website</h6>
 							</a>
 						</li>
 						<li class="left">
@@ -22,11 +22,6 @@
 								<h5>Contact</h5>
 								<h6>maker</h6>
 							</a>
-						</li>
-						<li class="left">
-							<span class="icon-icon_vinyl"></span>
-							<h5>Project</h5>
-							<h6>difficulty</h6>
 						</li>
 						<li class="left">
 							<span class="icon-icon_share"></span>

@@ -1,14 +1,14 @@
-<?php include 'partials/footernav.php';?>
+<?php include 'modules/footernav.php';?>
 <footer class="mainFooter">
 	<p class="left">Webdesign made by <a href="#">Martinr.nl</a> feel free to download the designs <a href="#">here</a></p>
 </footer>	
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="public/js/jquery-2.1.1.min.js">\x3C/script>')</script>
 <script>
 	$(function() {
 		String.prototype.decodeHTML = function() {
 			return $("<div>", {html: "" + this}).html();
   };
-
   var $main = $(".mainContent"),
   
   init = function() {
