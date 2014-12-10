@@ -575,8 +575,8 @@ body {
   width: 50%; }
 
 /* line 13, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
-.homepage .footerNav {
-  margin-top: 2%; }
+.overviewPage {
+  padding-bottom: 2%; }
 
 /* line 16, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/layout */
 .mainContent .preview {

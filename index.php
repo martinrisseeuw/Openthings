@@ -1,5 +1,5 @@
 <?php include 'partials/head.php';?>
-<section class="mainContent left">
+<section class="mainContent overviewPage left">
 	<ul>
 		<li class="preview left">
 			<article>
