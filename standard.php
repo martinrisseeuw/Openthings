@@ -1,5 +1,5 @@
 <?php include 'partials/head.php';?>
-    <section class="mainContent left">
+    <section class="mainContent standardPage left">
 			<div>
 				<h1>Open design</h1>
 				<p>Design is undergoing a revolution. Technology is empowering more people to create and disseminate designs, and professionals and enthusiasts are using it to share their work with the world. Open design is changing everything from furniture to how designers make a living.</p>

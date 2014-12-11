@@ -20,8 +20,24 @@
 		$('.logo').click(function() {
 			$('.mainNavigation li.current').removeClass('current');
 		});
+		
 		if(window.location.pathname === "/openthings/tutorial.php" || window.location.pathname === "/openthings/project.php"){
 			UserRating();
+		}
+		else{}
+		
+		if(window.location.pathname === "/openthings/tutorials.php" || window.location.pathname === "/openthings/index.php"  || window.location.pathname === "/openthings/designers.php"){
+			$( ".mainContent" ).addClass( "overviewPage" );
+		}
+		else{
+			$( ".mainContent" ).removeClass( "overviewPage" );
+		}
+		
+		if(window.location.pathname === "/openthings/standard.php"){
+			$( ".mainContent" ).addClass( "standardPage" );
+		}
+		else{
+			$( ".mainContent" ).removeClass( "standardPage" );
 		}
   },
   
@@ -64,13 +80,18 @@
 		$(".projectComments ul").slideToggle();
 	}
 	function AddProject(){
-		$(".shareDesignBtn").click(function(){
-			$(".postProject").fadeIn();
-		});
+		$(".postProject").slideDown();
 		$(".close-icon").click(function(){
-			$(".postProject").fadeOut();
+			$(".postProject").slideUp();
 		});
 	}
+	function LoginScreen(){
+		$(".loginScreen").slideDown();
+		$(".close-icon").click(function(){
+			$(".loginScreen").slideUp();
+		});
+	}
+	
 	function UserRating(){
 		$('.rating1').hover(function() {
 			$('.rating').toggleClass('rated1'); // add class when mouseover happen

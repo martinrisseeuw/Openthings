@@ -5,4 +5,5 @@
 			<li class="left"><a class="navitem-designers" href="designers.php">Designers</a></li>
 	</ul>
 	<a href="#addproject" class="shareDesignBtn right" onClick="AddProject();"><span class="icon-icon_plus"></span> Share your designs</a>
+	<a href="#login" class="loginBtn right" onClick="LoginScreen();">Login / register</a>
 </nav>

@@ -13,3 +13,4 @@
 	<?php include 'modules/navigation.php';?>
 	<?php include 'modules/search.php';?>
 	<?php include 'modules/addproject.php';?>
+	<?php include 'modules/login.php';?>
