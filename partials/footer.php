@@ -91,6 +91,13 @@
 			$(".loginScreen").slideUp();
 		});
 	}
+
+	function AccountScreen(){
+		$(".accountScreen").slideDown();
+		$(".close-icon").click(function(){
+			$(".accountScreen").slideUp();
+		});
+	}
 	
 	function UserRating(){
 		$('.rating1').hover(function() {

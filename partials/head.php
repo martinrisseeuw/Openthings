@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="project description" />
 
-    <title>Basic HTML start template</title>
+    <title>openThings</title>
     <link rel="icon" href="public/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="public/stylesheets/main.css" />
 </head>
@@ -14,3 +14,4 @@
 	<?php include 'modules/search.php';?>
 	<?php include 'modules/addproject.php';?>
 	<?php include 'modules/login.php';?>
+	<?php include 'modules/account.php';?>

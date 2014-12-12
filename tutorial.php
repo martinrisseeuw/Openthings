@@ -1,7 +1,12 @@
 <?php include 'partials/head.php';?>
     <section class="mainContent left">
         <header class="projectHeader left">
-            <img class="left" src="public/images/partworks.jpg" />
+					<div class="videoHeader left">
+						<div class="videoWrapper">
+								<!-- Copy & Pasted from YouTube -->
+								<iframe width="420" height="315" src="//www.youtube.com/embed/9DMicZKUSC0" frameborder="0" allowfullscreen></iframe>
+						</div>
+					</div>
             <div class="left">
                 <h1>Partworks tutorial</h1>
                 <p>This is a tutorial for using PartWorks to prepare a file for the ShopBot at the Heads on Fire :: Fab Lab in San Diego, CA. This was prepared by Christian Gonzalez and Kayla Richardson.</p>
@@ -14,7 +19,7 @@
 							<a href="#">
 								<span class="icon-icon_text"></span>
 								<h5>Download</h5>
-								<h6>manual & files</h6>
+								<h6>Tutorial</h6>
 							</a>
 						</li>
 						<li class="left">
@@ -25,17 +30,22 @@
 							</a>
 						</li>
 						<li class="left">
-							<span class="icon-icons_difficulty4"></span>
-							<h5>Project</h5>
+							<span class="icon-icons_difficulty1"></span>
+							<h5>Tutorial</h5>
 							<h6>difficulty</h6>
 						</li>
 						<li class="left">
 							<span class="icon-icon_share"></span>
 							<h5>Share</h5>
-							<h6>project</h6>
+							<h6>Tutorial</h6>
 						</li>
 					</ul>
         </section>
+				<section class="projectDescription right">
+					<p>hopBot PartWorks is a user-friendly CAD/CAM design program that takes you from laying out your design to producing a ShopBot Part File, ready to cut on your tool.  PartWorks is the easiest-to-use and quickest-to-learn 2.5D design and CNC machining software product on the market.  It gives you accurate design tools, impressive toolpathing functionality and dazzling 3D previews all wrapped up in the a simple, intuitive interface.  It is an excellent starting point for a any new CNC router owner.</p>
+
+<p>Several years ago we recognized that one of the most difficult aspects of robotic tools for people new to the technology was the process of turning a project concept into the computer toolpath file that guides the motion of cutting or machining.  That's why, with the help of the Vectric software team we have created PartWorks (and PartWorks 3D) and include it with every new ShopBot tool.</p>
+				</section>
         <section class="projectComments right">
 					<header class="left">
 						<div class="rating left">
@@ -46,27 +56,6 @@
 						</div>
 					</header>
 					<ul class="left">
-						<li>
-							<article class="comment">
-								<h1 class="gamma">What about the electronics</h1>
-								<h2 class="zeta">Posted by: Martin Risseeuw</h2>
-								<p>Selling excess solar or wind energy back to the power company is not a new idea. But what if, instead of selling renewable energy back to companies who then sell it to our neighbors, we could sell the energy directly to our neighbors?</p>
-							</article>
-						</li>
-						<li>
-							<article class="comment">
-								<h1 class="gamma">What about the electronics</h1>
-								<h2 class="zeta">Posted by: Martin Risseeuw</h2>
-								<p>Selling excess solar or wind energy back to the power company is not a new idea. But what if, instead of selling renewable energy back to companies who then sell it to our neighbors, we could sell the energy directly to our neighbors?</p>
-							</article>
-						</li>
-						<li>
-							<article class="comment">
-								<h1 class="gamma">What about the electronics</h1>
-								<h2 class="zeta">Posted by: Martin Risseeuw</h2>
-								<p>Selling excess solar or wind energy back to the power company is not a new idea. But what if, instead of selling renewable energy back to companies who then sell it to our neighbors, we could sell the energy directly to our neighbors?</p>
-							</article>
-						</li>
 						<li>
 							<article class="comment">
 								<h1 class="gamma">What about the electronics</h1>

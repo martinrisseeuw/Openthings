@@ -1,4 +1,4 @@
-.projectVersions, .userProjectVersions, .commentInput form, .commentInput, .projectComments ul, .projectComments header, .projectComments, .mainContent, .mainContent .projectHeader div, .projectDetails, .userDetails, .postProject, .loginScreen{
+.projectDescription, .projectVersions, .userProjectVersions, .commentInput form, .commentInput, .projectComments ul, .projectComments header, .projectComments, .mainContent, .mainContent .projectHeader div, .projectDetails, .userDetails, .postProject, .loginScreen, .accountScreen{
 	@include box-sizing(border-box);
 }
 body{
@@ -7,7 +7,7 @@ body{
 .projectComments ul,.mainContent, .projectHeader, .mainContent .projectComments li, .commentInput, .commentInput input, .commentInput textarea, .commentInput form{
 	width: 100%;
 }
-.mainContent .projectHeader img, .mainContent .projectHeader div{
+.projectDescription, .mainContent .projectHeader img, .mainContent .projectHeader div{
 	width: 50%;
 }
 .overviewPage{
@@ -113,7 +113,9 @@ body{
 	margin: 0 0 0 0;
 }
 
-
+.projectDescription{
+	padding: 4%;
+}
 
 .projectComments{
 	width: 50%;
@@ -158,7 +160,7 @@ body{
 .projectUpdate{
 	padding: 4%;
 	width: 50%;
-	background: rgba($brand-color, 0.15);
+	background: rgba($brand-color, 0.02);
 	@include box-sizing(border-box);
 }
 
@@ -224,6 +226,31 @@ body{
 .loginScreen button{
 	margin-bottom: 4em;
 }
+.accountScreen{
+	padding: 4%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	background: rgba(255,255,255,0.97);
+	box-shadow: 0 4px 5px rgba(50,50,50,0.2);
+	display: none;
+}
+.accountScreen form{
+	max-width: 600px;
+	width: 100%;
+}
+.accountScreen input, .accountScreen textarea, .accountScreen select{
+	max-width: 100%;
+	width: 100%;
+	margin-bottom: 1em;
+	@include box-sizing(border-box);
+}
+.accountScreen button{
+	margin-bottom: 4em;
+}
+
 .rating span{
 	padding: 0 0.1em;
 	cursor: pointer;
@@ -253,4 +280,21 @@ body{
 	transform: rotate(45deg);
 	font-size: 1.5em;
 	cursor: pointer;
+}
+.videoHeader{
+	padding: 0 !important;
+}
+.videoWrapper {
+	position: relative;
+	width: 100% !important;
+	padding-bottom: 56.25% !important; /* 16:9 */
+	padding-top: 25px !important;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
