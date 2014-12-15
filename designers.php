@@ -9,7 +9,7 @@
 							<div>
 								<h2 class="left">Martin Risseeuw</h2>
 							</div>
-							<a href="tutorial.php">View more</a>
+							<a href="user.php">View more</a>
 						</figcaption>			
 					</figure>
 				</article>
