@@ -50,6 +50,19 @@ body{
 	border-top: 1px solid rgba(255,255,255, 0.5);
 	padding: 4% 0;
 }
+.versionDetails{
+	margin-top: 4%;
+}
+.versionDetails{
+	display: none;
+}
+.versionDetails li{
+	background: rgba($brand-color, 0.1);
+	padding: 1% 4%;
+}
+.versionDetails li:nth-child(odd){
+	background: rgba($brand-color, 0.15);
+}
 
 .userProjectVersions{
 	padding: 4%;
@@ -60,9 +73,6 @@ body{
 	border-top: 1px solid rgba(255,255,255, 0.5);
 	padding: 4% 0;
 }
-
-
-
 .projectDetails{
 	padding: 4%;
 	background-color: rgba(white, .6);

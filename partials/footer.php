@@ -99,6 +99,9 @@
 			$(".accountScreen").slideUp();
 		});
 	}
+	function ViewDetails(){
+		$(".versionDetails").slideToggle();
+	}
 
 	function UserRating(){
 		$('.rating1').hover(function() {
