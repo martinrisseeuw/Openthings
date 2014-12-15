@@ -28,6 +28,15 @@
 	line-height: 3.6em;
 	display: inline-block;
 }
+.mainNavigation li .logo{
+	color: white;
+}
+.mainNavigation .current .logo{
+	color: $mediumgrey;
+}
+.mainNavigation li .logo:hover{
+	color: $mediumgrey;
+}
 .mainNavigation .current a{
 	background-color: white;
 }

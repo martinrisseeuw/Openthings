@@ -1,7 +1,7 @@
 <section class="projectComments right">
 		<header class="left">
 			<div class="rating left">
-				<p>Rate tutorial: <span class="icon-icon_star rating1"></span><span class="icon-icon_star rating2"></span><span class="icon-icon_star rating3"></span><span class="icon-icon_star rating4"></span><span class="icon-icon_star rating5"></span></p>
+				<p>Rate tutorial: <span class="icon-icon_star2 rating1"></span><span class="icon-icon_star2 rating2"></span><span class="icon-icon_star2 rating3"></span><span class="icon-icon_star2 rating4"></span><span class="icon-icon_star2 rating5"></span></p>
 			</div>						
 			<div class="right">
 				<p class="viewcomments" onclick="ShowComments();"><span class="icon-icon_down"></span>View comments</p>

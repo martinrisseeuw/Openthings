@@ -14,10 +14,5 @@
 				<h6>maker</h6>
 			</a>
 		</li>
-		<li class="left">
-			<span class="icon-icon_share"></span>
-			<h5>Share</h5>
-			<h6>project</h6>
-		</li>
 	</ul>
 </section>

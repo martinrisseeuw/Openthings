@@ -73,7 +73,7 @@ li {
 a{
     text-decoration: none;
     opacity: 1;
-		color: $defaultLinkColor;
+		color: $brand-color;
     transition: opacity 0.3s ease-in-out;
 }
 a:hover{

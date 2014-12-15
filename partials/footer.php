@@ -4,6 +4,7 @@
 </footer>	
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="public/js/jquery-2.1.1.min.js">\x3C/script>')</script>
+<script src="public/js/jquery.viewportchecker.js"></script>
 <script>
 	$(function() {
 		String.prototype.decodeHTML = function() {
@@ -11,21 +12,22 @@
   };
   var $main = $(".mainContent"),
   
-  init = function() {
+  init = function() {	
+		jQuery(document).ready(function() {
+				jQuery('.preview').addClass("hidden").viewportChecker({
+						classToAdd: 'visible animated fadeIn',
+						offset: 100
+					 });
+		});
     // Do this when a page loads.
 		$('.mainNavigation li a').click(function() {
 			$('.mainNavigation li.current').removeClass('current');
 			$(this).closest('li').addClass('current');
-		});
-		$('.logo').click(function() {
-			$('.mainNavigation li.current').removeClass('current');
-		});
-		
+		});	
 		if(window.location.pathname === "/openthings/tutorial.php" || window.location.pathname === "/openthings/project.php"){
 			UserRating();
 		}
-		else{}
-		
+		else{}		
 		if(window.location.pathname === "/openthings/tutorials.php" || window.location.pathname === "/openthings/index.php"  || window.location.pathname === "/openthings/designers.php"){
 			$( ".mainContent" ).addClass( "overviewPage" );
 		}
@@ -91,14 +93,13 @@
 			$(".loginScreen").slideUp();
 		});
 	}
-
 	function AccountScreen(){
 		$(".accountScreen").slideDown();
 		$(".close-icon").click(function(){
 			$(".accountScreen").slideUp();
 		});
 	}
-	
+
 	function UserRating(){
 		$('.rating1').hover(function() {
 			$('.rating').toggleClass('rated1'); // add class when mouseover happen

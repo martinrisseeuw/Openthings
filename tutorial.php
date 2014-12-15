@@ -41,44 +41,11 @@
 						</li>
 					</ul>
         </section>
-				<section class="projectDescription right">
+				<section class="detailedDescription right">
 					<p>hopBot PartWorks is a user-friendly CAD/CAM design program that takes you from laying out your design to producing a ShopBot Part File, ready to cut on your tool.  PartWorks is the easiest-to-use and quickest-to-learn 2.5D design and CNC machining software product on the market.  It gives you accurate design tools, impressive toolpathing functionality and dazzling 3D previews all wrapped up in the a simple, intuitive interface.  It is an excellent starting point for a any new CNC router owner.</p>
 
 <p>Several years ago we recognized that one of the most difficult aspects of robotic tools for people new to the technology was the process of turning a project concept into the computer toolpath file that guides the motion of cutting or machining.  That's why, with the help of the Vectric software team we have created PartWorks (and PartWorks 3D) and include it with every new ShopBot tool.</p>
 				</section>
-        <section class="projectComments right">
-					<header class="left">
-						<div class="rating left">
-							<p>Rate tutorial: <span class="icon-icon_star rating1"></span><span class="icon-icon_star rating2"></span><span class="icon-icon_star rating3"></span><span class="icon-icon_star rating4"></span><span class="icon-icon_star rating5"></span></p>
-						</div>						
-						<div class="right">
-							<p class="viewcomments" onclick="ShowComments();"><span class="icon-icon_down"></span>View comments</p>
-						</div>
-					</header>
-					<ul class="left">
-						<li>
-							<article class="comment">
-								<h1 class="gamma">What about the electronics</h1>
-								<h2 class="zeta">Posted by: Martin Risseeuw</h2>
-								<p>Selling excess solar or wind energy back to the power company is not a new idea. But what if, instead of selling renewable energy back to companies who then sell it to our neighbors, we could sell the energy directly to our neighbors?</p>
-							</article>
-						</li>
-						<li>
-							<article class="comment">
-								<h1 class="gamma">What about the electronics</h1>
-								<h2 class="zeta">Posted by: Martin Risseeuw</h2>
-								<p>Selling excess solar or wind energy back to the power company is not a new idea. But what if, instead of selling renewable energy back to companies who then sell it to our neighbors, we could sell the energy directly to our neighbors?</p>
-							</article>
-						</li>
-					</ul>
-					<section class="commentInput left">
-						<form class="left" >
-							<h1 class="gamma">Add your comment</h1>
-							<input placeholder="Name">
-							<textarea placeholder="Your comment" rows="6"></textarea>
-							<button class="left" ><span class="icon-icon_chat"></span> Submit comment</button>
-						</form>
-					</section>
-        </section>		
+      <?php include 'modules/comments-and-rating.php';?>	
     </section>
 <?php include 'partials/footer.php';?>

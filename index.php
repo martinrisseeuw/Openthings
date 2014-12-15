@@ -29,6 +29,20 @@
 				</figure>
 			</article>
 		</li>
+		<li class="preview left">
+			<article>
+				<figure class="effect-lily">
+					<img src="public/images/lamp_with_book.jpg" alt="img12"/>
+					<figcaption>
+						<div>
+							<h2 class="left">Happiness project</h2>
+							<p class="left">One thing all humans have in common is that each of us wants to be happy. However, sometimes we need a stoplight and figure out what makes us happy&hellip;</p>
+						</div>
+						<a href="project.php">View more</a>
+					</figcaption>			
+				</figure>
+			</article>
+		</li>
 	</ul>
 </section>
 <?php include 'partials/footer.php';?>
