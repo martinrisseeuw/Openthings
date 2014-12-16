@@ -1,6 +1,6 @@
 <section class="mainSearch left">
 		<form class="left">
 				<input placeholder="Search: description, tag, type of product">
-				<button type="submit">Search <span class="icon-icon_loupe"></span></button>
+				<button type="submit"><span class="icon-loupe"></span> Search</button>
 		</form>
 </section>

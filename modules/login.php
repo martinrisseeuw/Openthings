@@ -1,5 +1,5 @@
 <section class="loginScreen left">
-	<span class="icon-icon_plus close-icon"></span>
+	<span class="icon-plus close-icon"></span>
 	<form class="left">
 		<h1>Login / Register</h1>
 		<p>If you already have an account just login.</p>

@@ -2,7 +2,7 @@ button{
 	color: white;
 	background-color: $brand-color;
 	cursor: pointer;
-	padding: $xsmall-margin-padding;
+	padding: $small-margin-padding;
 	border-radius: 1px;
   transition: opacity 0.3s ease-in-out;
 }
@@ -11,7 +11,7 @@ button{
 	display: inline-block;
 	background-color: $brand-color;
 	cursor: pointer;
-	padding: $xsmall-margin-padding;
+	padding: $small-margin-padding;
 	border-radius: 1px;
   transition: opacity 0.3s ease-in-out;
 }

@@ -1,10 +1,10 @@
 <section class="projectComments right">
 		<header class="left">
 			<div class="rating left">
-				<p>Rate tutorial: <span class="icon-icon_star2 rating1"></span><span class="icon-icon_star2 rating2"></span><span class="icon-icon_star2 rating3"></span><span class="icon-icon_star2 rating4"></span><span class="icon-icon_star2 rating5"></span></p>
+				<p>Rate tutorial: <span class="icon-star2 rating1"></span><span class="icon-star2 rating2"></span><span class="icon-star2 rating3"></span><span class="icon-star2 rating4"></span><span class="icon-star2 rating5"></span></p>
 			</div>						
 			<div class="right">
-				<p class="viewcomments" onclick="ShowComments();"><span class="icon-icon_down"></span>View comments</p>
+				<p class="viewcomments" onclick="ShowComments();"><span class="icon-down"></span>View comments</p>
 			</div>
 		</header>
 		<ul class="left">
@@ -49,7 +49,7 @@
 				<h1 class="gamma">Add your comment</h1>
 				<input placeholder="Name">
 				<textarea placeholder="Your comment" rows="6"></textarea>
-				<button class="left" ><span class="icon-icon_chat"></span> Submit comment</button>
+				<button class="left" ><span class="icon-messages"></span> Submit comment</button>
 			</form>
 		</section>
 	</section>

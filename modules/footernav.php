@@ -11,10 +11,11 @@
 		<section class="left">
 				<ul>
 						<li><h2 class="gamma">Inspired by</h2></li>
-						<li><a href="standard.php">WikiPedia</a></li>
-						<li><a href="standard.php">OpenDesk</a></li>
-						<li><a href="standard.php">Fablab community</a></li>
-						<li><a href="standard.php">WikiHouse</a></li>
+						<li><a href="http://www.wikipedia.org" target="_blank">WikiPedia</a></li>
+						<li><a href="http://www.github.com" target="_blank">Github</a></li>
+						<li><a href="http://www.wikipedia.org" target="_blank">Fablab foundation</a></li>
+						<li><a href="http://www.stackoverflow.com" target="_blank">Stackoverflow</a></li>
+						<li><a href="http://www.linux.com" target="_blank">Linux</a></li>
 				</ul>
 		</section>
 		<section class="left">

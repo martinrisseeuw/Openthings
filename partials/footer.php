@@ -24,7 +24,7 @@
 			$('.mainNavigation li.current').removeClass('current');
 			$(this).closest('li').addClass('current');
 		});	
-		if(window.location.pathname === "/openthings/tutorial.php" || window.location.pathname === "/openthings/project.php"){
+		if(window.location.pathname === "/openthings/tutorial.php" || window.location.pathname === "/openthings/project.php" || window.location.pathname === "/openthings/user.php"){
 			UserRating();
 		}
 		else{}		
@@ -80,6 +80,7 @@
 <script>
 	function ShowComments(){
 		$(".projectComments ul").slideToggle();
+		$(".viewcomments").addClass( "commentsopen" );
 	}
 	function AddProject(){
 		$(".postProject").slideDown();

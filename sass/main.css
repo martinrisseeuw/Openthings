@@ -154,15 +154,15 @@ button:hover, .btn:hover {
   opacity: 0.8; }
 
 @font-face {
-  font-family: 'icons_martin';
-  src: url('../icons/icons_martin.eot?79h4zr');
-  src: url('../icons/icons_martin.eot?#iefix79h4zr') format('embedded-opentype'), url('../icons/icons_martin.woff?79h4zr') format('woff'), url('../icons/icons_martin.ttf?79h4zr') format('truetype'), url('../icons/icons_martin.svg?79h4zr#icons_martin') format('svg');
+  font-family: 'martin';
+  src: url('../icons/martin.eot?79h4zr');
+  src: url('../icons/martin.eot?#iefix79h4zr') format('embedded-opentype'), url('../icons/martin.woff?79h4zr') format('woff'), url('../icons/martin.ttf?79h4zr') format('truetype'), url('../icons/martin.svg?79h4zr#martin') format('svg');
   font-weight: normal;
   font-style: normal; }
 
 /* line 12, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/icons */
 [class^="icon-"], [class*=" icon-"] {
-  font-family: 'icons_martin';
+  font-family: 'martin';
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -176,27 +176,27 @@ button:hover, .btn:hover {
   -moz-osx-font-smoothing: grayscale; }
 
 /* line 28, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/icons */
-.icon-icons_difficulty0:before {
+.icon-difficulty0:before {
   content: "\e63a"; }
 
 /* line 31, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/icons */
-.icon-icons_difficulty1:before {
+.icon-difficulty1:before {
   content: "\e63b"; }
 
 /* line 34, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/icons */
-.icon-icons_difficulty2:before {
+.icon-difficulty2:before {
   content: "\e63c"; }
 
 /* line 37, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/icons */
-.icon-icons_difficulty3:before {
+.icon-difficulty3:before {
   content: "\e63d"; }
 
 /* line 40, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/icons */
-.icon-icons_difficulty4:before {
+.icon-difficulty4:before {
   content: "\e63e"; }
 
 /* line 43, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/icons */
-.icon-icons_difficulty5:before {
+.icon-difficulty5:before {
   content: "\e63f"; }
 
 /* line 46, /Users/martinrisseeuw/Dropbox/Development projects/openthings/sass/partials/icons */
