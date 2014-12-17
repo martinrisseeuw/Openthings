@@ -19,6 +19,7 @@
 						offset: 100
 					 });
 		});
+		
     // Do this when a page loads.
 		$('.mainNavigation li a').click(function() {
 			$('.mainNavigation li.current').removeClass('current');
@@ -34,7 +35,6 @@
 		else{
 			$( ".mainContent" ).removeClass( "overviewPage" );
 		}
-		
 		if(window.location.pathname === "/openthings/standard.php"){
 			$( ".mainContent" ).addClass( "standardPage" );
 		}
@@ -99,6 +99,16 @@
 		$(".close-icon").click(function(){
 			$(".accountScreen").slideUp();
 		});
+	}
+	function AddMaterial(){
+		$(".addMaterial").slideToggle();
+	}
+
+	function AddTutorial(){
+		$(".addTutorial").slideToggle();
+		$('html, body').animate({
+        scrollTop: $(".addTutorial").offset().top
+    }, 500);
 	}
 	function ViewDetails(){
 		$(".versionDetails").slideToggle();

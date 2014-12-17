@@ -14,7 +14,7 @@
 				<p>I first started with creating the abstract version of the bourgie lamp with Rhinoceros (mac). I first drew the basic shape in Illustrator(image.1) after that I imported in Rhinoceros. I used the revolve command to create half of the lamps shape.</p> 
 
 				<p>After creating the model, I created two boxes and aligned them so I would have the pocket for the mold. One big box and one smaller box, so the model would have thickness at the sides. I created different holes for the connection width 8mm depth 5mm.</p>
-				<button><span class="icon-save"></span> Download this version</button> <button><span class="icon-plus"></span> Add tutorial</button>
+				<button><span class="icon-save"></span> Download this version</button> <button onclick="AddTutorial();"><span class="icon-plus"></span> Add tutorial</button>
 			</article>
 		</li>
 		<li>

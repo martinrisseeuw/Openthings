@@ -1,4 +1,4 @@
-.addTutorial, .detailedDescription, .projectVersions, .userProjectVersions, .commentInput form, .commentInput, .projectComments ul, .projectComments header, .projectComments, .mainContent, .mainContent .projectHeader div, .projectDetails, .userDetails, .postProject, .loginScreen, .accountScreen, .bom{
+.questionsList li, .addTutorial, .detailedDescription, .projectVersions, .userProjectVersions, .commentInput form, .commentInput, .projectComments ul, .projectComments header, .projectComments, .mainContent, .mainContent .projectHeader div, .projectDetails, .userDetails, .postProject, .loginScreen, .accountScreen, .bom{
 	@include box-sizing(border-box);
 }
 body{
@@ -107,6 +107,15 @@ body{
 .bom li{
 	padding: 1% 0;
 	border-bottom: white 1px solid;
+}
+.addMaterial{
+	display: none;
+}
+.addMaterial input{
+	width: 44%;
+}
+.addMaterial button{
+	margin-left: 0.5em;
 }
 .userDetails{
 	padding: 4%;
@@ -318,6 +327,7 @@ body{
 .addTutorial{
 	background: white;
 	padding: 4%;
+	display: none;
 }
 .addTutorial form{
 	max-width: 600px;
@@ -334,10 +344,27 @@ body{
 	margin-top: 2em;
 	border-top: 1px solid $lightgrey;
 }
-
 .creativeCommons{
 	position: absolute;
 	bottom: 0;
 	box-sizing: border-box;
 	font-size: 1.125em;
+}
+.creativeCommons a{
+	color: white;
+}
+.questionsList li{
+	padding: 2% 4%;
+	width: 100%;
+	background: rgba(white, .2);
+}
+.questionsList li:nth-child(odd){
+	background: rgba(white, .4);
+}
+.questionsList li .gamma{
+	margin-bottom: 0;
+}
+.questionsList .icon-messages::before{
+	position: relative;
+	top: 3px;
 }
